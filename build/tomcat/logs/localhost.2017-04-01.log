@@ -1,0 +1,104 @@
+01-Apr-2017 06:50:28.125 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 06:50:28.142 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 06:50:37.791 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 06:50:43.837 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 06:50:47.547 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 06:50:47.547 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 06:51:08.398 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 07:05:26.433 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 07:05:26.509 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 07:05:26.646 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 07:06:15.732 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 07:06:15.760 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 07:06:23.118 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 07:06:25.268 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 07:06:27.732 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 07:06:27.733 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 07:06:42.742 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 07:39:32.514 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 07:39:32.574 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 07:39:32.805 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 07:39:40.705 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 07:39:40.727 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 07:39:48.189 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 07:39:50.743 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 07:39:53.581 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 07:39:53.581 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 07:40:11.113 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 10:14:40.762 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 10:14:40.788 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 10:14:48.887 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 10:14:52.645 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 10:14:55.441 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 10:14:55.441 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 10:15:11.624 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:20:50.823 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:20:50.879 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:21:42.079 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:21:46.206 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:21:46.207 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:22:00.205 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:22:05.535 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 11:23:16.784 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 11:23:16.826 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:23:16.987 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:28:53.855 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:28:53.887 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:29:34.891 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:29:37.862 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:29:37.863 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:29:51.660 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:29:55.634 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 11:34:36.658 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 11:34:36.749 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:34:37.101 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:35:08.637 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:35:08.723 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:36:04.878 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:36:09.159 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:36:09.160 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:36:23.907 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:36:28.908 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 11:40:03.051 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 11:40:03.120 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:40:03.390 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:40:27.958 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:40:27.988 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:41:12.135 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 11:41:16.264 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 11:41:16.266 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 11:41:29.778 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 11:41:34.836 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 12:35:10.626 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 12:35:11.091 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 12:35:13.787 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 12:36:10.390 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 12:36:10.442 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 12:36:56.650 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 12:36:59.859 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 12:36:59.860 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 12:37:12.418 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 12:37:16.882 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 12:39:36.508 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 12:39:36.528 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 12:39:36.617 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 13:28:18.250 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 13:28:18.285 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 13:28:45.691 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 13:28:47.735 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 13:28:47.736 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 13:28:54.536 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 13:28:56.631 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 15:01:13.826 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 15:01:14.019 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 15:01:14.388 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+01-Apr-2017 15:04:07.212 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 15:04:07.272 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 15:04:45.009 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+01-Apr-2017 15:04:46.830 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+01-Apr-2017 15:04:46.831 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+01-Apr-2017 15:04:54.042 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 15:04:56.412 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+01-Apr-2017 15:16:07.850 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+01-Apr-2017 15:16:09.983 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+01-Apr-2017 15:16:12.119 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'

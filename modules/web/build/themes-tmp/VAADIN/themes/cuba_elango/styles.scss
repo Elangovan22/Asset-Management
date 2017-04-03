@@ -1,0 +1,31 @@
+//@import "halo-defaults";
+//@import "com.company.assetmanagement/halo-ext-defaults";
+@import "app-components";
+//@import "com.company.assetmanagement/halo-ext";
+//@import "cuba_elango";
+//@import "cuba_elango-defaults";
+
+
+
+//@import "../halo/halo-defaults";
+@import "cuba_elango-defaults";
+@import "cuba_elango";
+
+.cuba_elango {
+  @include cuba_elango;
+}
+
+.v-theme-version {
+  display: none;
+}
+
+
+
+
+
+//.halo {
+  // include auto-generated app components SCSS
+  //@include app_components;
+  
+ // @include com_company_assetmanagement-halo-ext;
+//}

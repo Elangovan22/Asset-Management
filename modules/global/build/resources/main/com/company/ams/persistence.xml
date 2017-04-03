@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="AMS"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>com.company.ams.entity.NewAsset</class>
+        <class>com.company.ams.entity.Asset</class>
+        <class>com.company.ams.entity.Suplier</class>
+        <class>com.company.ams.entity.Instance</class>
+        <class>com.company.ams.entity.RequestAsset</class>
+        <class>com.company.ams.entity.Responce_Request</class>
+        <class>com.company.ams.entity.AssetAllocated</class>
+    </persistence-unit>
+</persistence>

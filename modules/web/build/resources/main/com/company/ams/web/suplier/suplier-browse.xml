@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.ams.web.suplier.SuplierBrowse"
+        focusComponent="supliersTable"
+        lookupComponent="supliersTable"
+        messagesPack="com.company.ams.web.suplier">
+    <dsContext>
+        <collectionDatasource id="supliersDs"
+                              class="com.company.ams.entity.Suplier"
+                              view="_local">
+            <query>
+                <![CDATA[select e from ams$Suplier e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="supliersTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="supliersTable"
+                datasource="supliersDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="supliersTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="state"/>
+                <column id="place"/>
+                <column id="name"/>
+            </columns>
+            <rows datasource="supliersDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="supliersTable.create"/>
+                <button id="editBtn"
+                        action="supliersTable.edit"/>
+                <button id="removeBtn"
+                        action="supliersTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

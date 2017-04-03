@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.ams.web.mainwindow.ExtAppMainWindow"
+        extends="/com/haulmont/cuba/web/app/mainwindow/mainwindow.xml"
+        messagesPack="com.company.ams.web.mainwindow"
+        xmlns:main="http://schemas.haulmont.com/cuba/mainwindow.xsd">
+    <layout expand="middlePanel"
+            expands="middlespane">
+        <hbox id="titleBar"
+              margin="true"
+              stylename="gray"/>
+        <split id="foldersSplit"
+               enable="false"
+               height="0px"
+               pos="0"
+               visible="false"
+               width="0px">
+            <main:foldersPane id="foldersPane"
+                              enable="false"
+                              height="0px"
+                              visible="false"
+                              width="0px"/>
+            <main:workArea id="workArea"
+                           enable="false"
+                           height="0px"
+                           visible="false"
+                           width="0px">
+                <main:initialLayout enable="false"
+                                    spacing="false"
+                                    visible="false"/>
+            </main:workArea>
+        </split>
+        <split id="middlePanel"
+               orientation="horizontal"
+               pos="80"
+               width="100%">
+            <main:workArea id="workarea_1"
+                           height="100%"
+                           width="100%">
+                <main:initialLayout>
+                    <vbox height="2168px"
+                          stylename="order1"/>
+                </main:initialLayout>
+            </main:workArea>
+        </split>
+    </layout>
+</window>

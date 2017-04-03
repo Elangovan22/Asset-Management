@@ -1,0 +1,9 @@
+/* Define your theme modifications inside next mixin */
+/*@mixin com_company_assetmanagement-halo-ext {}*/
+
+@import "../halo/halo";
+
+@mixin cuba_elango {
+@include halo;
+}
+

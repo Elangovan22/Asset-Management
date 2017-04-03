@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.company.assetmanagement.entity.New_Asset"
+          extends="_local"
+          name="new_Asset-view"
+          systemProperties="true">
+        <property name="supplier"
+                  view="_minimal">
+            <property name="supplier_Name"/>
+            <property name="city"/>
+        </property>
+        <property name="asset_name"
+                  view="_minimal"/>
+    </view>
+</views>

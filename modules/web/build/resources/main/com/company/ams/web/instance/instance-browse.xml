@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.ams.web.instance.InstanceBrowse"
+        focusComponent="instancesTable"
+        lookupComponent="instancesTable"
+        messagesPack="com.company.ams.web.instance">
+    <dsContext>
+        <collectionDatasource id="instancesDs"
+                              class="com.company.ams.entity.Instance"
+                              view="_local">
+            <query>
+                <![CDATA[select e from ams$Instance e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="instancesTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="instancesTable"
+                datasource="instancesDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="instancesTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+                <action id="refresh"/>
+                <action id="excel"/>
+            </actions>
+            <columns>
+                <column id="user"/>
+                <column id="name"/>
+                <column id="company"/>
+                <column id="modelname"/>
+                <column id="totalquantity"/>
+                <column id="neededquantity"/>
+                <column id="teamviewer"/>
+                <column id="assetid"/>
+            </columns>
+            <rows datasource="instancesDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="instancesTable.create"/>
+                <button id="editBtn"
+                        action="instancesTable.edit"/>
+                <button id="removeBtn"
+                        action="instancesTable.remove"/>
+                <button id="refreshBtn"
+                        action="instancesTable.refresh"/>
+                <button id="excelBtn"
+                        action="instancesTable.excel"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

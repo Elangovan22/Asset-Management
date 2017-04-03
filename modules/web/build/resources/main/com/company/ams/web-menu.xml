@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="AssetManagement"
+          icon="font-icon:DESKTOP"
+          insertBefore="administration">
+        <item id="ams$NewAsset.browse"
+              icon="icons/bulk-edit.png"/>
+        <item id="ams$RequestAsset.browse"
+              icon="icons/reports-template-view.png"/>
+        <item id="ams$Responce_Request.browse"
+              icon="icons/wf-exchange.png"/>
+        <item id="ams$AssetAllocated.browse"
+              icon="icons/refresh.png"/>
+    </menu>
+    <menu id="Reference"
+          icon="icons/change-pass-at-logon.png"
+          insertBefore="administration">
+        <item id="ams$Asset.browse"
+              icon="icons/edit.png"/>
+        <item id="ams$Suplier.browse"
+              icon="font-icon:CART_ARROW_DOWN"/>
+    </menu>
+</menu-config>

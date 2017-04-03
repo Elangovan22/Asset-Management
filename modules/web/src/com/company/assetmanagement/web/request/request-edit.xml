@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.assetmanagement.web.request.RequestEdit"
+        datasource="requestDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.assetmanagement.web.request">
+    <dsContext>
+        <datasource id="requestDs"
+                    class="com.company.assetmanagement.entity.Request"
+                    view="_minimal"/>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="requestDs">
+            <column width="250px">
+                <field id="asset_name"/>
+                <field id="user_name"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.assetmanagement.web.asset.AssetBrowse"
+        focusComponent="assetsTable"
+        lookupComponent="assetsTable"
+        messagesPack="com.company.assetmanagement.web.asset">
+    <dsContext>
+        <collectionDatasource id="assetsDs"
+                              class="com.company.assetmanagement.entity.Asset"
+                              view="_minimal">
+            <query>
+                <![CDATA[select e from assetmanagement$Asset e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="assetsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="assetsTable"
+                datasource="assetsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="assetsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="asset_name"/>
+            </columns>
+            <rows datasource="assetsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="assetsTable.create"/>
+                <button id="editBtn"
+                        action="assetsTable.edit"/>
+                <button id="removeBtn"
+                        action="assetsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

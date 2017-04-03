@@ -1,0 +1,1404 @@
+Performance Statistics   2017-04-01 06:50:00 - 2017-04-01 06:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$RequestAsset.browse#init                             1.0           1           1         0.0           1
+ams$RequestAsset.browse#inject                           2.0           2           2         0.0           1
+ams$RequestAsset.browse#load                           294.0         294         294         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                             11.0          11          11         0.0           1
+ams$RequestAsset.browse@assetsDs                       104.0         104         104         0.0           1
+ams$RequestAsset.browse@newAssetDs                     113.0         104         122         9.0           2
+ams$Responce_Request.browse#init                         0.0           0           0         0.0           1
+ams$Responce_Request.browse#inject                      13.0          13          13         0.0           1
+ams$Responce_Request.browse#load                      1124.0        1124        1124         0.0           1
+ams$Responce_Request.browse#ready                        0.0           0           0         0.0           1
+ams$Responce_Request.browse#uiPermissions                0.0           0           0         0.0           1
+ams$Responce_Request.browse#xml                         47.0          47          47         0.0           1
+ams$Responce_Request.browse@instancesDs                819.0         819         819         0.0           1
+loginWindow#init                                        26.0          26          26         0.0           1
+loginWindow#inject                                      16.0          16          16         0.0           1
+loginWindow#load                                       571.0         571         571         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         21.0          21          21         0.0           1
+mainWindow#init                                         96.0          96          96         0.0           1
+mainWindow#inject                                        5.0           5           5         0.0           1
+mainWindow#load                                        543.0         543         543         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           7.0           7           7         0.0           1
+
+Performance Statistics   2017-04-01 06:52:00 - 2017-04-01 06:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Responce_Request.browse#init                         0.0           0           0         0.0           1
+ams$Responce_Request.browse#inject                       9.0           9           9         0.0           1
+ams$Responce_Request.browse#load                        90.0          90          90         0.0           1
+ams$Responce_Request.browse#ready                        0.0           0           0         0.0           1
+ams$Responce_Request.browse#uiPermissions                0.0           0           0         0.0           1
+ams$Responce_Request.browse#xml                          0.0           0           0         0.0           1
+ams$Responce_Request.browse@instancesDs                 59.0          59          59         0.0           1
+
+Performance Statistics   2017-04-01 06:54:00 - 2017-04-01 06:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 06:56:00 - 2017-04-01 06:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 06:58:00 - 2017-04-01 07:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:00:00 - 2017-04-01 07:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:02:00 - 2017-04-01 07:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:06:00 - 2017-04-01 07:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$AssetAllocated.browse#init                           0.0           0           0         0.0           1
+ams$AssetAllocated.browse#inject                         0.0           0           0         0.0           1
+ams$AssetAllocated.browse#load                          73.0          73          73         0.0           1
+ams$AssetAllocated.browse#ready                          0.0           0           0         0.0           1
+ams$AssetAllocated.browse#uiPermissions                  0.0           0           0         0.0           1
+ams$AssetAllocated.browse#xml                           11.0          11          11         0.0           1
+ams$AssetAllocated.browse@assetAllocatedsDs             45.0          45          45         0.0           1
+ams$Instance.edit#init                                   0.0           0           0         0.0           1
+ams$Instance.edit#inject                                 0.5           0           1         0.5           2
+ams$Instance.edit#load                                 112.0         112         112         0.0           1
+ams$Instance.edit#ready                                  0.0           0           0         0.0           1
+ams$Instance.edit#setItem                              364.0         364         364         0.0           1
+ams$Instance.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$Instance.edit#xml                                    7.0           7           7         0.0           1
+ams$Instance.edit.windowActions#load                     9.0           9           9         0.0           1
+ams$Responce_Request.browse#init                         0.0           0           0         0.0           1
+ams$Responce_Request.browse#inject                      11.0          11          11         0.0           1
+ams$Responce_Request.browse#load                       980.0         980         980         0.0           1
+ams$Responce_Request.browse#ready                        0.0           0           0         0.0           1
+ams$Responce_Request.browse#uiPermissions                0.0           0           0         0.0           1
+ams$Responce_Request.browse#xml                         12.0          12          12         0.0           1
+ams$Responce_Request.browse@instancesDs                295.0          48         736       312.6           3
+loginWindow#init                                        17.0          17          17         0.0           1
+loginWindow#inject                                      17.0          17          17         0.0           1
+loginWindow#load                                       461.0         461         461         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         22.0          22          22         0.0           1
+mainWindow#init                                         68.0          68          68         0.0           1
+mainWindow#inject                                        9.0           9           9         0.0           1
+mainWindow#load                                        225.0         225         225         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           5.0           5           5         0.0           1
+windowActions#xml                                        1.0           1           1         0.0           1
+
+Performance Statistics   2017-04-01 07:08:00 - 2017-04-01 07:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   87.0          87          87         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     8.0           8           8         0.0           1
+ams$Asset.browse@assetsDs                               50.0          50          50         0.0           1
+ams$Asset.edit#init                                      0.0           0           0         0.0          10
+ams$Asset.edit#inject                                    0.1           0           1         0.2          20
+ams$Asset.edit#load                                     16.8          11          27         4.1          10
+ams$Asset.edit#ready                                     0.0           0           0         0.0          10
+ams$Asset.edit#setItem                                   0.0           0           0         0.0          10
+ams$Asset.edit#uiPermissions                             0.0           0           0         0.0          10
+ams$Asset.edit#xml                                       0.3           0           3         0.9          10
+ams$Asset.edit.windowActions#load                        0.0           0           0         0.0          10
+windowActions#xml                                        0.0           0           0         0.0          10
+
+Performance Statistics   2017-04-01 07:10:00 - 2017-04-01 07:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Suplier.browse#init                                  0.0           0           0         0.0           1
+ams$Suplier.browse#inject                                0.0           0           0         0.0           1
+ams$Suplier.browse#load                                152.0         152         152         0.0           1
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           1
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           1
+ams$Suplier.browse#xml                                  12.0          12          12         0.0           1
+ams$Suplier.browse@supliersDs                           35.0          35          35         0.0           1
+ams$Suplier.edit#init                                    0.0           0           0         0.0           2
+ams$Suplier.edit#inject                                  0.0           0           0         0.0           4
+ams$Suplier.edit#load                                   75.0          73          77         2.0           2
+ams$Suplier.edit#ready                                   0.0           0           0         0.0           2
+ams$Suplier.edit#setItem                                36.0           0          72        36.0           2
+ams$Suplier.edit#uiPermissions                           0.0           0           0         0.0           2
+ams$Suplier.edit#xml                                     2.5           0           5         2.5           2
+ams$Suplier.edit.windowActions#load                      0.0           0           0         0.0           2
+windowActions#xml                                        0.0           0           0         0.0           2
+
+Performance Statistics   2017-04-01 07:12:00 - 2017-04-01 07:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Suplier.edit#init                                    0.0           0           0         0.0           3
+ams$Suplier.edit#inject                                  0.0           0           0         0.0           6
+ams$Suplier.edit#load                                   24.7          20          30         4.1           3
+ams$Suplier.edit#ready                                   0.0           0           0         0.0           3
+ams$Suplier.edit#setItem                                 0.0           0           0         0.0           3
+ams$Suplier.edit#uiPermissions                           0.0           0           0         0.0           3
+ams$Suplier.edit#xml                                     0.0           0           0         0.0           3
+ams$Suplier.edit.windowActions#load                      0.0           0           0         0.0           3
+windowActions#xml                                        0.0           0           0         0.0           3
+
+Performance Statistics   2017-04-01 07:14:00 - 2017-04-01 07:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   38.0          38          38         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     0.0           0           0         0.0           1
+ams$Asset.browse@assetsDs                               88.0          88          88         0.0           1
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                               0.0           0           0         0.0           1
+ams$NewAsset.browse#load                                74.0          74          74         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  9.0           9           9         0.0           1
+ams$NewAsset.browse@newAssetsDs                        163.0         163         163         0.0           1
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           1
+ams$NewAsset.edit#inject                                 0.0           0           0         0.0           2
+ams$NewAsset.edit#load                                 277.0         277         277         0.0           1
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           1
+ams$NewAsset.edit#setItem                                4.0           4           4         0.0           1
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$NewAsset.edit#xml                                    3.0           3           3         0.0           1
+ams$NewAsset.edit.windowActions#load                     0.0           0           0         0.0           1
+ams$Suplier.browse#init                                  0.0           0           0         0.0           1
+ams$Suplier.browse#inject                                0.0           0           0         0.0           1
+ams$Suplier.browse#load                                 64.0          64          64         0.0           1
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           1
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           1
+ams$Suplier.browse#xml                                   0.0           0           0         0.0           1
+ams$Suplier.browse@supliersDs                           50.0          50          50         0.0           1
+windowActions#xml                                        2.0           2           2         0.0           1
+
+Performance Statistics   2017-04-01 07:16:00 - 2017-04-01 07:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           2
+ams$Asset.browse#inject                                  0.0           0           0         0.0           2
+ams$Asset.browse#load                                   26.5          26          27         0.5           2
+ams$Asset.browse#ready                                   0.0           0           0         0.0           2
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           2
+ams$Asset.browse#xml                                     0.0           0           0         0.0           2
+ams$Asset.browse@assetsDs                               68.5          35         102        33.5           2
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           2
+ams$NewAsset.edit#inject                                 0.0           0           0         0.0           4
+ams$NewAsset.edit#load                                  64.5          42          87        22.5           2
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           2
+ams$NewAsset.edit#setItem                                1.0           1           1         0.0           2
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           2
+ams$NewAsset.edit#xml                                    0.0           0           0         0.0           2
+ams$NewAsset.edit.windowActions#load                     0.0           0           0         0.0           2
+ams$Suplier.browse#init                                  0.0           0           0         0.0           1
+ams$Suplier.browse#inject                                0.0           0           0         0.0           1
+ams$Suplier.browse#load                                 24.0          24          24         0.0           1
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           1
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           1
+ams$Suplier.browse#xml                                   0.0           0           0         0.0           1
+ams$Suplier.browse@supliersDs                           53.0          53          53         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           2
+
+Performance Statistics   2017-04-01 07:18:00 - 2017-04-01 07:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           2
+ams$Asset.browse#inject                                  0.0           0           0         0.0           2
+ams$Asset.browse#load                                   22.5          18          27         4.5           2
+ams$Asset.browse#ready                                   0.0           0           0         0.0           2
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           2
+ams$Asset.browse#xml                                     0.0           0           0         0.0           2
+ams$Asset.browse@assetsDs                               50.0          32          68        18.0           2
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           2
+ams$NewAsset.edit#inject                                 0.0           0           0         0.0           4
+ams$NewAsset.edit#load                                  32.0          30          34         2.0           2
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           2
+ams$NewAsset.edit#setItem                                0.5           0           1         0.5           2
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           2
+ams$NewAsset.edit#xml                                    0.0           0           0         0.0           2
+ams$NewAsset.edit.windowActions#load                     0.0           0           0         0.0           2
+ams$Suplier.browse#init                                  0.0           0           0         0.0           2
+ams$Suplier.browse#inject                                0.0           0           0         0.0           2
+ams$Suplier.browse#load                                 24.0          22          26         2.0           2
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           2
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           2
+ams$Suplier.browse#xml                                   0.0           0           0         0.0           2
+ams$Suplier.browse@supliersDs                           59.5          52          67         7.5           2
+windowActions#xml                                        0.0           0           0         0.0           2
+
+Performance Statistics   2017-04-01 07:20:00 - 2017-04-01 07:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   28.0          28          28         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     0.0           0           0         0.0           1
+ams$Asset.browse@assetsDs                              108.0         108         108         0.0           1
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           1
+ams$NewAsset.edit#inject                                 0.0           0           0         0.0           2
+ams$NewAsset.edit#load                                  30.0          30          30         0.0           1
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           1
+ams$NewAsset.edit#setItem                                1.0           1           1         0.0           1
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$NewAsset.edit#xml                                    0.0           0           0         0.0           1
+ams$NewAsset.edit.windowActions#load                     0.0           0           0         0.0           1
+ams$Suplier.browse#init                                  0.0           0           0         0.0           1
+ams$Suplier.browse#inject                                0.0           0           0         0.0           1
+ams$Suplier.browse#load                                 33.0          33          33         0.0           1
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           1
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           1
+ams$Suplier.browse#xml                                   0.0           0           0         0.0           1
+ams$Suplier.browse@supliersDs                           29.0          29          29         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 07:22:00 - 2017-04-01 07:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   21.0          21          21         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     0.0           0           0         0.0           1
+ams$Asset.browse@assetsDs                              126.0         126         126         0.0           1
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           1
+ams$NewAsset.edit#inject                                 0.0           0           0         0.0           2
+ams$NewAsset.edit#load                                  29.0          29          29         0.0           1
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           1
+ams$NewAsset.edit#setItem                                1.0           1           1         0.0           1
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$NewAsset.edit#xml                                    0.0           0           0         0.0           1
+ams$NewAsset.edit.windowActions#load                     0.0           0           0         0.0           1
+ams$Suplier.browse#init                                  0.0           0           0         0.0           2
+ams$Suplier.browse#inject                                0.0           0           0         0.0           2
+ams$Suplier.browse#load                                 24.5          22          27         2.5           2
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           2
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           2
+ams$Suplier.browse#xml                                   0.0           0           0         0.0           2
+ams$Suplier.browse@supliersDs                           93.5          48         139        45.5           2
+ams$Suplier.edit#init                                    0.0           0           0         0.0           1
+ams$Suplier.edit#inject                                  0.0           0           0         0.0           2
+ams$Suplier.edit#load                                   18.0          18          18         0.0           1
+ams$Suplier.edit#ready                                   0.0           0           0         0.0           1
+ams$Suplier.edit#setItem                                 0.0           0           0         0.0           1
+ams$Suplier.edit#uiPermissions                           0.0           0           0         0.0           1
+ams$Suplier.edit#xml                                     0.0           0           0         0.0           1
+ams$Suplier.edit.windowActions#load                      0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           2
+
+Performance Statistics   2017-04-01 07:24:00 - 2017-04-01 07:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                               0.0           0           0         0.0           1
+ams$NewAsset.browse#load                                26.0          26          26         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  0.0           0           0         0.0           1
+ams$NewAsset.browse@newAssetsDs                        217.0         217         217         0.0           1
+ams$RequestAsset.browse#init                             0.5           0           1         0.5           2
+ams$RequestAsset.browse#inject                          15.0          12          18         3.0           2
+ams$RequestAsset.browse#load                            76.5          23         130        53.5           2
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           2
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           2
+ams$RequestAsset.browse#xml                              1.5           0           3         1.5           2
+ams$RequestAsset.browse@assetsDs                        40.0          39          41         1.0           2
+ams$RequestAsset.browse@newAssetDs                      46.5          32          53         8.5           4
+ams$Responce_Request.browse#load                        27.0          27          27         0.0           1
+ams$Responce_Request.browse#xml                          0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 07:26:00 - 2017-04-01 07:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$AssetAllocated.browse#init                           0.0           0           0         0.0           1
+ams$AssetAllocated.browse#inject                         0.0           0           0         0.0           1
+ams$AssetAllocated.browse#load                          27.0          27          27         0.0           1
+ams$AssetAllocated.browse#ready                          0.0           0           0         0.0           1
+ams$AssetAllocated.browse#uiPermissions                  0.0           0           0         0.0           1
+ams$AssetAllocated.browse#xml                            0.0           0           0         0.0           1
+ams$AssetAllocated.browse@assetAllocatedsDs             26.0          26          26         0.0           1
+ams$Responce_Request.browse#init                         0.0           0           0         0.0           1
+ams$Responce_Request.browse#inject                     157.0         157         157         0.0           1
+ams$Responce_Request.browse#ready                        0.0           0           0         0.0           1
+ams$Responce_Request.browse#uiPermissions                0.0           0           0         0.0           1
+ams$Responce_Request.browse@instancesDs                 57.0          54          60         3.0           2
+
+Performance Statistics   2017-04-01 07:28:00 - 2017-04-01 07:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:30:00 - 2017-04-01 07:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:32:00 - 2017-04-01 07:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:34:00 - 2017-04-01 07:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 07:36:00 - 2017-04-01 07:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:14:00 - 2017-04-01 10:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  3.0           3           3         0.0           1
+ams$Asset.browse#load                                  857.0         857         857         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                    19.0          19          19         0.0           1
+ams$Asset.browse@assetsDs                              721.0         721         721         0.0           1
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                               0.0           0           0         0.0           1
+ams$NewAsset.browse#load                               108.0         108         108         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  8.0           8           8         0.0           1
+ams$NewAsset.browse@newAssetsDs                        301.0         301         301         0.0           1
+ams$Suplier.browse#init                                  0.0           0           0         0.0           1
+ams$Suplier.browse#inject                                0.0           0           0         0.0           1
+ams$Suplier.browse#load                                 73.0          73          73         0.0           1
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           1
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           1
+ams$Suplier.browse#xml                                   4.0           4           4         0.0           1
+ams$Suplier.browse@supliersDs                          107.0         107         107         0.0           1
+loginWindow#init                                        19.0          19          19         0.0           1
+loginWindow#inject                                      16.0          16          16         0.0           1
+loginWindow#load                                       529.0         529         529         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         21.0          21          21         0.0           1
+mainWindow#init                                         41.0          41          41         0.0           1
+mainWindow#inject                                        5.0           5           5         0.0           1
+mainWindow#load                                        238.0         238         238         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           3.0           3           3         0.0           1
+
+Performance Statistics   2017-04-01 10:16:00 - 2017-04-01 10:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           1
+ams$NewAsset.edit#inject                                 0.5           0           1         0.5           2
+ams$NewAsset.edit#load                                 585.0         585         585         0.0           1
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           1
+ams$NewAsset.edit#setItem                               14.0          14          14         0.0           1
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$NewAsset.edit#xml                                  197.0         197         197         0.0           1
+ams$NewAsset.edit.windowActions#load                     8.0           8           8         0.0           1
+ams$RequestAsset.browse#init                             2.0           2           2         0.0           1
+ams$RequestAsset.browse#inject                           3.0           3           3         0.0           1
+ams$RequestAsset.browse#load                           245.0         245         245         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                              6.0           6           6         0.0           1
+ams$RequestAsset.browse@assetsDs                       107.0         107         107         0.0           1
+ams$RequestAsset.browse@newAssetDs                      74.0          42         101        22.1           7
+ams$Responce_Request.browse#init                         0.0           0           0         0.0           1
+ams$Responce_Request.browse#inject                      61.0          61          61         0.0           1
+ams$Responce_Request.browse#load                       130.0         130         130         0.0           1
+ams$Responce_Request.browse#ready                        0.0           0           0         0.0           1
+ams$Responce_Request.browse#uiPermissions                0.0           0           0         0.0           1
+ams$Responce_Request.browse#xml                         10.0          10          10         0.0           1
+ams$Responce_Request.browse@instancesDs                133.0         133         133         0.0           1
+windowActions#xml                                        1.0           1           1         0.0           1
+
+Performance Statistics   2017-04-01 10:18:00 - 2017-04-01 10:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:20:00 - 2017-04-01 10:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:22:00 - 2017-04-01 10:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:24:00 - 2017-04-01 10:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:26:00 - 2017-04-01 10:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:28:00 - 2017-04-01 10:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:30:00 - 2017-04-01 10:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:32:00 - 2017-04-01 10:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:34:00 - 2017-04-01 10:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:36:00 - 2017-04-01 10:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:38:00 - 2017-04-01 10:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:40:00 - 2017-04-01 10:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:42:00 - 2017-04-01 10:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:44:00 - 2017-04-01 10:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:46:00 - 2017-04-01 10:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:48:00 - 2017-04-01 10:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:50:00 - 2017-04-01 10:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:52:00 - 2017-04-01 10:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:54:00 - 2017-04-01 10:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:56:00 - 2017-04-01 10:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 10:58:00 - 2017-04-01 11:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 11:22:00 - 2017-04-01 11:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                              10.0          10          10         0.0           1
+ams$NewAsset.browse#load                              1443.0        1443        1443         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  8.0           8           8         0.0           1
+ams$NewAsset.browse@newAssetsDs                       1452.0        1452        1452         0.0           1
+loginWindow#init                                        33.0          33          33         0.0           1
+loginWindow#inject                                      21.0          21          21         0.0           1
+loginWindow#load                                      1394.0        1394        1394         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         15.0          15          15         0.0           1
+mainWindow#init                                        314.0         314         314         0.0           1
+mainWindow#inject                                       40.0          40          40         0.0           1
+mainWindow#load                                        584.0         584         584         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                          23.0          23          23         0.0           1
+
+Performance Statistics   2017-04-01 11:30:00 - 2017-04-01 11:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                        26.0          26          26         0.0           1
+loginWindow#inject                                      98.0          98          98         0.0           1
+loginWindow#load                                       830.0         830         830         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                        179.0         179         179         0.0           1
+mainWindow#init                                        122.0         122         122         0.0           1
+mainWindow#inject                                       23.0          23          23         0.0           1
+mainWindow#load                                        553.0         553         553         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                          19.0          19          19         0.0           1
+
+Performance Statistics   2017-04-01 11:36:00 - 2017-04-01 11:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                        41.0          41          41         0.0           1
+loginWindow#inject                                      43.0          43          43         0.0           1
+loginWindow#load                                       609.0         609         609         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         36.0          36          36         0.0           1
+
+Performance Statistics   2017-04-01 11:40:00 - 2017-04-01 11:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                        36.0          36          36         0.0           1
+loginWindow#inject                                      33.0          33          33         0.0           1
+loginWindow#load                                      1316.0        1316        1316         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         60.0          60          60         0.0           1
+
+Performance Statistics   2017-04-01 11:42:00 - 2017-04-01 11:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+mainWindow#init                                        224.0         224         224         0.0           1
+mainWindow#inject                                       19.0          19          19         0.0           1
+mainWindow#load                                        894.0         894         894         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           9.0           9           9         0.0           1
+sec$Group.lookup#init                                   81.0          81          81         0.0           1
+sec$Group.lookup#inject                                  0.0           0           0         0.0           1
+sec$Group.lookup#load                                   72.0          72          72         0.0           1
+sec$Group.lookup#ready                                   0.0           0           0         0.0           1
+sec$Group.lookup#uiPermissions                           0.0           0           0         0.0           1
+sec$Group.lookup#xml                                     4.0           4           4         0.0           1
+sec$Group.lookup@groupsDs                               75.0          75          75         0.0           1
+sec$User.browse#companion                               14.0          14          14         0.0           1
+sec$User.browse#init                                    49.0          49          49         0.0           1
+sec$User.browse#inject                                  53.0          53          53         0.0           1
+sec$User.browse#load                                  1221.0        1221        1221         0.0           1
+sec$User.browse#ready                                    0.0           0           0         0.0           1
+sec$User.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$User.browse#xml                                     23.0          23          23         0.0           1
+sec$User.browse@usersDs                               1309.0        1309        1309         0.0           1
+sec$User.edit#companion                                  3.0           3           3         0.0           1
+sec$User.edit#init                                     230.0         230         230         0.0           1
+sec$User.edit#inject                                     5.5           0          11         5.5           2
+sec$User.edit#load                                     193.0         193         193         0.0           1
+sec$User.edit#ready                                      0.0           0           0         0.0           1
+sec$User.edit#setItem                                  146.0         146         146         0.0           1
+sec$User.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$User.edit#xml                                       14.0          14          14         0.0           1
+sec$User.edit.windowActions#load                         3.0           3           3         0.0           1
+windowActions#xml                                        2.0           2           2         0.0           1
+
+Performance Statistics   2017-04-01 11:44:00 - 2017-04-01 11:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+screensTabFrame#xml                                      3.5           0           7         3.5           2
+sec$Role.browse#init                                    14.0          14          14         0.0           1
+sec$Role.browse#inject                                   1.0           1           1         0.0           1
+sec$Role.browse#load                                   129.0         129         129         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      5.0           5           5         0.0           1
+sec$Role.browse@rolesDs                                 59.0          59          59         0.0           1
+sec$Role.edit#companion                                  2.5           2           3         0.5           2
+sec$Role.edit#init                                       0.0           0           0         0.0           2
+sec$Role.edit#inject                                     3.3           0           8         3.4           6
+sec$Role.edit#load                                     113.0          36         190        77.0           2
+sec$Role.edit#ready                                      0.0           0           0         0.0           2
+sec$Role.edit#setItem                                  298.5          92         505       206.5           2
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           2
+sec$Role.edit#xml                                        4.0           0           8         4.0           2
+sec$Role.edit.screensTabFrame#init                      20.0           0          40        20.0           2
+sec$Role.edit.screensTabFrame#load                      20.0           4          36        16.0           2
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           2
+sec$Role.edit.screensTabFrame@screenPermissionsDs        75.5          29         122        46.5           2
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs       173.5           3         344       170.5           2
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           2
+windowActions#xml                                        0.0           0           0         0.0           2
+
+Performance Statistics   2017-04-01 11:46:00 - 2017-04-01 11:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+entitiesTabFrame#xml                                     5.0           5           5         0.0           1
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.edit#companion                                  2.0           1           3         1.0           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     4.0           0          15         6.4           4
+sec$Role.edit#load                                      29.0          29          29         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                  103.0         103         103         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame#init                    108.0         108         108         0.0           1
+sec$Role.edit.entitiesTabFrame#load                    123.0         123         123         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs        68.0          68          68         0.0           1
+sec$Role.edit.screensTabFrame#init                       1.0           1           1         0.0           1
+sec$Role.edit.screensTabFrame#load                       5.0           5           5         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        47.0          47          47         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         5.0           5           5         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 11:48:00 - 2017-04-01 11:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 11:50:00 - 2017-04-01 11:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+attributesTabFrame#xml                                   8.0           8           8         0.0           1
+sec$Role.edit#companion                                  3.5           3           4         0.5           2
+sec$Role.edit#inject                                     7.5           2          13         5.5           2
+sec$Role.edit.attributesTabFrame#init                   77.0          77          77         0.0           1
+sec$Role.edit.attributesTabFrame#load                   30.0          30          30         0.0           1
+sec$Role.edit.attributesTabFrame#uiPermissions           0.0           0           0         0.0           1
+sec$Role.edit.attributesTabFrame@propertyPermissionsDs        51.0          51          51         0.0           1
+sec$Role.edit.specificTabFrame#init                     96.0          96          96         0.0           1
+sec$Role.edit.specificTabFrame#load                     11.0          11          11         0.0           1
+sec$Role.edit.specificTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.specificTabFrame@specificPermissionsDs        78.0          78          78         0.0           1
+sec$Role.edit.specificTabFrame@specificPermissionsTreeDs         0.0           0           0         0.0           1
+specificTabFrame#xml                                     2.0           2           2         0.0           1
+
+Performance Statistics   2017-04-01 11:52:00 - 2017-04-01 11:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.edit#companion                                  1.0           1           1         0.0           1
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     0.0           0           0         0.0           3
+sec$Role.edit#load                                      34.0          34          34         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   71.0          71          71         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame#init                       1.0           1           1         0.0           1
+sec$Role.edit.screensTabFrame#load                       5.0           5           5         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        31.0          31          31         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         2.0           2           2         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+sec$Role.lookup#init                                     0.0           0           0         0.0           1
+sec$Role.lookup#inject                                   0.0           0           0         0.0           1
+sec$Role.lookup#load                                    12.0          12          12         0.0           1
+sec$Role.lookup#ready                                    0.0           0           0         0.0           1
+sec$Role.lookup#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.lookup#xml                                      0.0           0           0         0.0           1
+sec$Role.lookup@rolesDs                                 57.0          57          57         0.0           1
+sec$User.edit#companion                                  1.0           1           1         0.0           1
+sec$User.edit#init                                      15.0          15          15         0.0           1
+sec$User.edit#inject                                     0.0           0           0         0.0           2
+sec$User.edit#load                                      44.0          44          44         0.0           1
+sec$User.edit#ready                                      0.0           0           0         0.0           1
+sec$User.edit#setItem                                  126.0         126         126         0.0           1
+sec$User.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$User.edit#xml                                        0.0           0           0         0.0           1
+sec$User.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           2
+
+Performance Statistics   2017-04-01 11:54:00 - 2017-04-01 11:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$RequestAsset.browse#init                             1.0           1           1         0.0           1
+ams$RequestAsset.browse#inject                           2.0           2           2         0.0           1
+ams$RequestAsset.browse#load                           139.0         139         139         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                             13.0          13          13         0.0           1
+ams$RequestAsset.browse@assetsDs                        50.0          50          50         0.0           1
+ams$RequestAsset.browse@newAssetDs                      42.0          42          42         0.0           1
+entitiesTabFrame#xml                                     0.0           0           0         0.0           1
+loginWindow#init                                         0.5           0           1         0.5           2
+loginWindow#inject                                       6.0           1          11         5.0           2
+loginWindow#load                                         9.5           8          11         1.5           2
+loginWindow#ready                                        0.0           0           0         0.0           2
+loginWindow#uiPermissions                                0.0           0           0         0.0           2
+loginWindow#xml                                          0.0           0           0         0.0           2
+mainWindow#init                                          1.0           0           2         1.0           2
+mainWindow#inject                                        1.0           0           2         1.0           2
+mainWindow#load                                         64.0          40          88        24.0           2
+mainWindow#ready                                         0.0           0           0         0.0           2
+mainWindow#uiPermissions                                 0.0           0           0         0.0           2
+mainWindow#xml                                           0.0           0           0         0.0           2
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.browse#init                                     0.0           0           0         0.0           1
+sec$Role.browse#inject                                   0.0           0           0         0.0           1
+sec$Role.browse#load                                    12.0          12          12         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      0.0           0           0         0.0           1
+sec$Role.browse@rolesDs                                 38.0          38          38         0.0           1
+sec$Role.edit#companion                                  1.0           1           1         0.0           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     0.0           0           0         0.0           4
+sec$Role.edit#load                                      33.0          33          33         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   62.0          62          62         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame#init                     70.0          70          70         0.0           1
+sec$Role.edit.entitiesTabFrame#load                     10.0          10          10         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs        63.0          63          63         0.0           1
+sec$Role.edit.screensTabFrame#init                       1.0           1           1         0.0           1
+sec$Role.edit.screensTabFrame#load                       4.0           4           4         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        35.0          35          35         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         2.0           2           2         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 11:56:00 - 2017-04-01 11:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+attributesTabFrame#xml                                   0.0           0           0         0.0           1
+sec$Role.edit#companion                                  3.0           3           3         0.0           1
+sec$Role.edit#inject                                     0.0           0           0         0.0           1
+sec$Role.edit.attributesTabFrame#init                  184.0         184         184         0.0           1
+sec$Role.edit.attributesTabFrame#load                   13.0          13          13         0.0           1
+sec$Role.edit.attributesTabFrame#uiPermissions           0.0           0           0         0.0           1
+sec$Role.edit.attributesTabFrame@propertyPermissionsDs       164.0         164         164         0.0           1
+
+Performance Statistics   2017-04-01 11:58:00 - 2017-04-01 12:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+mainWindow#init                                          0.0           0           0         0.0           1
+mainWindow#inject                                       17.0          17          17         0.0           1
+mainWindow#load                                         51.0          51          51         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 12:00:00 - 2017-04-01 12:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:02:00 - 2017-04-01 12:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:04:00 - 2017-04-01 12:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:06:00 - 2017-04-01 12:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:08:00 - 2017-04-01 12:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:10:00 - 2017-04-01 12:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:12:00 - 2017-04-01 12:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:14:00 - 2017-04-01 12:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:16:00 - 2017-04-01 12:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:18:00 - 2017-04-01 12:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:20:00 - 2017-04-01 12:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:22:00 - 2017-04-01 12:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:24:00 - 2017-04-01 12:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:26:00 - 2017-04-01 12:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:28:00 - 2017-04-01 12:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:30:00 - 2017-04-01 12:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 12:36:00 - 2017-04-01 12:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                        20.0          20          20         0.0           1
+loginWindow#inject                                      23.0          23          23         0.0           1
+loginWindow#load                                       919.0         919         919         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         39.0          39          39         0.0           1
+mainWindow#init                                         98.0          98          98         0.0           1
+mainWindow#inject                                       17.0          17          17         0.0           1
+mainWindow#load                                        983.0         983         983         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 3.0           3           3         0.0           1
+mainWindow#xml                                          25.0          25          25         0.0           1
+
+Performance Statistics   2017-04-01 13:30:00 - 2017-04-01 13:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                               2.0           2           2         0.0           1
+ams$NewAsset.browse#load                               715.0         715         715         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  7.0           7           7         0.0           1
+ams$NewAsset.browse@newAssetsDs                       1206.0        1206        1206         0.0           1
+ams$RequestAsset.browse#init                             1.0           1           1         0.0           1
+ams$RequestAsset.browse#inject                           2.0           2           2         0.0           1
+ams$RequestAsset.browse#load                           172.0         172         172         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                              3.0           3           3         0.0           1
+ams$RequestAsset.browse@assetsDs                        57.0          57          57         0.0           1
+ams$RequestAsset.browse@newAssetDs                      45.5          29          62        16.5           2
+entitiesTabFrame#xml                                     8.0           8           8         0.0           1
+loginWindow#init                                         7.7           0          30        12.9           4
+loginWindow#inject                                      11.8           1          24         9.2           4
+loginWindow#load                                       137.3           7         521       221.6           4
+loginWindow#ready                                        0.0           0           0         0.0           4
+loginWindow#uiPermissions                                0.0           0           0         0.0           4
+loginWindow#xml                                          6.2           0          25        10.8           4
+mainWindow#init                                         28.3           0          81        37.3           3
+mainWindow#inject                                        3.7           0          11         5.2           3
+mainWindow#load                                        203.7          29         544       240.7           3
+mainWindow#ready                                         0.0           0           0         0.0           3
+mainWindow#uiPermissions                                 0.0           0           0         0.0           3
+mainWindow#xml                                           6.3           0          19         9.0           3
+screensTabFrame#xml                                      2.0           2           2         0.0           1
+sec$Role.browse#init                                    12.0          12          12         0.0           1
+sec$Role.browse#inject                                   2.0           2           2         0.0           1
+sec$Role.browse#load                                   120.0         120         120         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      3.0           3           3         0.0           1
+sec$Role.browse@rolesDs                                 29.0          29          29         0.0           1
+sec$Role.edit#companion                                  6.5           4           9         2.5           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     8.3           0          30        12.6           4
+sec$Role.edit#load                                     307.0         307         307         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                  532.0         532         532         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                       12.0          12          12         0.0           1
+sec$Role.edit.entitiesTabFrame#init                    179.0         179         179         0.0           1
+sec$Role.edit.entitiesTabFrame#load                     47.0          47          47         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs       132.0         132         132         0.0           1
+sec$Role.edit.screensTabFrame#init                      17.0          17          17         0.0           1
+sec$Role.edit.screensTabFrame#load                      74.0          74          74         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        51.0          51          51         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs       388.0         388         388         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        2.0           2           2         0.0           1
+
+Performance Statistics   2017-04-01 13:32:00 - 2017-04-01 13:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                               0.0           0           0         0.0           1
+ams$NewAsset.browse#load                                29.0          29          29         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  0.0           0           0         0.0           1
+ams$NewAsset.browse@newAssetsDs                        120.0         120         120         0.0           1
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           1
+ams$NewAsset.edit#inject                                 5.5           0          11         5.5           2
+ams$NewAsset.edit#load                                 121.0         121         121         0.0           1
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           1
+ams$NewAsset.edit#setItem                               42.0          42          42         0.0           1
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$NewAsset.edit#xml                                    3.0           3           3         0.0           1
+ams$NewAsset.edit.windowActions#load                     0.0           0           0         0.0           1
+ams$RequestAsset.browse#init                             0.0           0           0         0.0           2
+ams$RequestAsset.browse#inject                           0.5           0           1         0.5           2
+ams$RequestAsset.browse#load                            27.0          24          30         3.0           2
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           2
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           2
+ams$RequestAsset.browse#xml                              0.0           0           0         0.0           2
+ams$RequestAsset.browse@assetsDs                        50.5          48          53         2.5           2
+ams$RequestAsset.browse@newAssetDs                      32.7          21          47         9.8           6
+entitiesTabFrame#xml                                     0.0           0           0         0.0           1
+loginWindow#init                                         0.3           0           1         0.5           3
+loginWindow#inject                                       0.3           0           1         0.5           3
+loginWindow#load                                        10.0           9          11         0.8           3
+loginWindow#ready                                        0.0           0           0         0.0           3
+loginWindow#uiPermissions                                0.0           0           0         0.0           3
+loginWindow#xml                                          0.0           0           0         0.0           3
+mainWindow#init                                          0.0           0           0         0.0           3
+mainWindow#inject                                        2.0           0           6         2.8           3
+mainWindow#load                                         31.3          24          40         6.6           3
+mainWindow#ready                                         0.0           0           0         0.0           3
+mainWindow#uiPermissions                                 0.0           0           0         0.0           3
+mainWindow#xml                                           0.0           0           0         0.0           3
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.browse#init                                     0.0           0           0         0.0           1
+sec$Role.browse#inject                                   2.0           2           2         0.0           1
+sec$Role.browse#load                                    13.0          13          13         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      0.0           0           0         0.0           1
+sec$Role.browse@rolesDs                                 22.0          22          22         0.0           1
+sec$Role.edit#companion                                  1.0           1           1         0.0           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     1.0           0           4         1.7           4
+sec$Role.edit#load                                      31.0          31          31         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   60.0          60          60         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame#init                     81.0          81          81         0.0           1
+sec$Role.edit.entitiesTabFrame#load                     23.0          23          23         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs        65.0          65          65         0.0           1
+sec$Role.edit.screensTabFrame#init                       1.0           1           1         0.0           1
+sec$Role.edit.screensTabFrame#load                       4.0           4           4         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        26.0          26          26         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         3.0           3           3         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.5           0           1         0.5           2
+
+Performance Statistics   2017-04-01 13:34:00 - 2017-04-01 13:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$RequestAsset.browse#init                             0.0           0           0         0.0           1
+ams$RequestAsset.browse#inject                          12.0          12          12         0.0           1
+ams$RequestAsset.browse#load                            22.0          22          22         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                              0.0           0           0         0.0           1
+ams$RequestAsset.browse@assetsDs                        35.0          35          35         0.0           1
+ams$RequestAsset.browse@newAssetDs                      64.5          61          68         3.5           2
+entitiesTabFrame#xml                                     0.0           0           0         0.0           1
+loginWindow#init                                         0.0           0           0         0.0           1
+loginWindow#inject                                       0.0           0           0         0.0           1
+loginWindow#load                                         7.0           7           7         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                          0.0           0           0         0.0           1
+mainWindow#init                                          0.0           0           0         0.0           2
+mainWindow#inject                                        0.0           0           0         0.0           2
+mainWindow#load                                         29.0          26          32         3.0           2
+mainWindow#ready                                         0.0           0           0         0.0           2
+mainWindow#uiPermissions                                 0.0           0           0         0.0           2
+mainWindow#xml                                           0.0           0           0         0.0           2
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.browse#init                                     0.0           0           0         0.0           1
+sec$Role.browse#inject                                   4.0           4           4         0.0           1
+sec$Role.browse#load                                    13.0          13          13         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      0.0           0           0         0.0           1
+sec$Role.browse@rolesDs                                 19.0          19          19         0.0           1
+sec$Role.edit#companion                                  1.0           1           1         0.0           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     0.0           0           0         0.0           4
+sec$Role.edit#load                                      23.0          23          23         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   45.0          45          45         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame#init                     60.0          60          60         0.0           1
+sec$Role.edit.entitiesTabFrame#load                      9.0           9           9         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs        48.0          48          48         0.0           1
+sec$Role.edit.screensTabFrame#init                       0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame#load                       4.0           4           4         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        20.0          20          20         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         3.0           3           3         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 13:36:00 - 2017-04-01 13:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+attributesTabFrame#xml                                   4.0           4           4         0.0           1
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.edit#companion                                  2.0           2           2         0.0           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     2.0           0           6         2.3           4
+sec$Role.edit#load                                      24.0          24          24         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   76.0          76          76         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.attributesTabFrame#init                  201.0         201         201         0.0           1
+sec$Role.edit.attributesTabFrame#load                   17.0          17          17         0.0           1
+sec$Role.edit.attributesTabFrame#uiPermissions           0.0           0           0         0.0           1
+sec$Role.edit.attributesTabFrame@propertyPermissionsDs       157.0         157         157         0.0           1
+sec$Role.edit.screensTabFrame#init                       0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame#load                       4.0           4           4         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        43.0          43          43         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         3.0           3           3         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 13:38:00 - 2017-04-01 13:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   28.0          28          28         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     4.0           4           4         0.0           1
+ams$Asset.browse@assetsDs                               41.0          41          41         0.0           1
+ams$RequestAsset.browse#init                             0.0           0           0         0.0           1
+ams$RequestAsset.browse#inject                           0.0           0           0         0.0           1
+ams$RequestAsset.browse#load                            18.0          18          18         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                              0.0           0           0         0.0           1
+ams$RequestAsset.browse@assetsDs                        27.0          27          27         0.0           1
+ams$RequestAsset.browse@newAssetDs                      25.0          20          30         5.0           2
+loginWindow#init                                         0.0           0           0         0.0           2
+loginWindow#inject                                       0.0           0           0         0.0           2
+loginWindow#load                                         7.0           7           7         0.0           2
+loginWindow#ready                                        0.0           0           0         0.0           2
+loginWindow#uiPermissions                                0.0           0           0         0.0           2
+loginWindow#xml                                          0.0           0           0         0.0           2
+mainWindow#init                                          0.0           0           0         0.0           2
+mainWindow#inject                                        0.0           0           0         0.0           2
+mainWindow#load                                         24.0          21          27         3.0           2
+mainWindow#ready                                         0.0           0           0         0.0           2
+mainWindow#uiPermissions                                 0.0           0           0         0.0           2
+mainWindow#xml                                           0.0           0           0         0.0           2
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.browse#init                                     0.0           0           0         0.0           1
+sec$Role.browse#inject                                   4.0           4           4         0.0           1
+sec$Role.browse#load                                    12.0          12          12         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      0.0           0           0         0.0           1
+sec$Role.browse@rolesDs                                 19.0          19          19         0.0           1
+sec$Role.edit#companion                                  0.0           0           0         0.0           1
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     0.0           0           0         0.0           3
+sec$Role.edit#load                                      24.0          24          24         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   49.0          49          49         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame#init                       0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame#load                       3.0           3           3         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        20.0          20          20         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         1.0           1           1         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 13:40:00 - 2017-04-01 13:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$RequestAsset.browse#init                             0.0           0           0         0.0           1
+ams$RequestAsset.browse#inject                           0.0           0           0         0.0           1
+ams$RequestAsset.browse#load                            16.0          16          16         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                              0.0           0           0         0.0           1
+ams$RequestAsset.browse@assetsDs                        24.0          24          24         0.0           1
+ams$RequestAsset.browse@newAssetDs                      22.7          17          27         4.2           3
+attributesTabFrame#xml                                   0.0           0           0         0.0           1
+entitiesTabFrame#xml                                     0.0           0           0         0.0           1
+loginWindow#init                                         0.0           0           0         0.0           1
+loginWindow#inject                                       0.0           0           0         0.0           1
+loginWindow#load                                         6.0           6           6         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                          0.0           0           0         0.0           1
+mainWindow#init                                          0.0           0           0         0.0           1
+mainWindow#inject                                        0.0           0           0         0.0           1
+mainWindow#load                                         20.0          20          20         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           0.0           0           0         0.0           1
+sec$Role.edit#companion                                  2.3           1           4         1.3           4
+sec$Role.edit#inject                                     0.5           0           1         0.5           4
+sec$Role.edit.attributesTabFrame#init                   98.0          98          98         0.0           1
+sec$Role.edit.attributesTabFrame#load                    5.0           5           5         0.0           1
+sec$Role.edit.attributesTabFrame#uiPermissions           0.0           0           0         0.0           1
+sec$Role.edit.attributesTabFrame@propertyPermissionsDs        83.0          83          83         0.0           1
+sec$Role.edit.entitiesTabFrame#init                     64.0          64          64         0.0           1
+sec$Role.edit.entitiesTabFrame#load                      6.0           6           6         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs        55.0          55          55         0.0           1
+sec$Role.edit.specificTabFrame#init                     41.0          41          41         0.0           1
+sec$Role.edit.specificTabFrame#load                     12.0          12          12         0.0           1
+sec$Role.edit.specificTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.specificTabFrame@specificPermissionsDs        31.0          31          31         0.0           1
+sec$Role.edit.specificTabFrame@specificPermissionsTreeDs         0.0           0           0         0.0           1
+sec$Role.edit.uiTabFrame#init                          366.0         366         366         0.0           1
+sec$Role.edit.uiTabFrame#load                           26.0          26          26         0.0           1
+sec$Role.edit.uiTabFrame#uiPermissions                   0.0           0           0         0.0           1
+sec$Role.edit.uiTabFrame@uiPermissionsDs                23.0          23          23         0.0           1
+specificTabFrame#xml                                     3.0           3           3         0.0           1
+uiTabFrame#xml                                           4.0           4           4         0.0           1
+
+Performance Statistics   2017-04-01 13:42:00 - 2017-04-01 13:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+entitiesTabFrame#xml                                     0.0           0           0         0.0           1
+loginWindow#init                                         0.0           0           0         0.0           1
+loginWindow#inject                                       0.0           0           0         0.0           1
+loginWindow#load                                         8.0           8           8         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                          0.0           0           0         0.0           1
+mainWindow#init                                          0.0           0           0         0.0           1
+mainWindow#inject                                        0.0           0           0         0.0           1
+mainWindow#load                                         43.0          43          43         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           0.0           0           0         0.0           1
+screensTabFrame#xml                                      0.0           0           0         0.0           1
+sec$Role.browse#init                                     0.0           0           0         0.0           1
+sec$Role.browse#inject                                   7.0           7           7         0.0           1
+sec$Role.browse#load                                    12.0          12          12         0.0           1
+sec$Role.browse#ready                                    0.0           0           0         0.0           1
+sec$Role.browse#uiPermissions                            0.0           0           0         0.0           1
+sec$Role.browse#xml                                      0.0           0           0         0.0           1
+sec$Role.browse@rolesDs                                 20.0          20          20         0.0           1
+sec$Role.edit#companion                                  2.0           1           3         1.0           2
+sec$Role.edit#init                                       0.0           0           0         0.0           1
+sec$Role.edit#inject                                     2.5           0          10         4.3           4
+sec$Role.edit#load                                      20.0          20          20         0.0           1
+sec$Role.edit#ready                                      0.0           0           0         0.0           1
+sec$Role.edit#setItem                                   43.0          43          43         0.0           1
+sec$Role.edit#uiPermissions                              0.0           0           0         0.0           1
+sec$Role.edit#xml                                        0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame#init                     34.0          34          34         0.0           1
+sec$Role.edit.entitiesTabFrame#load                      7.0           7           7         0.0           1
+sec$Role.edit.entitiesTabFrame#uiPermissions             0.0           0           0         0.0           1
+sec$Role.edit.entitiesTabFrame@entityPermissionsDs        30.0          30          30         0.0           1
+sec$Role.edit.screensTabFrame#init                       0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame#load                       3.0           3           3         0.0           1
+sec$Role.edit.screensTabFrame#uiPermissions              0.0           0           0         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsDs        18.0          18          18         0.0           1
+sec$Role.edit.screensTabFrame@screenPermissionsTreeDs         1.0           1           1         0.0           1
+sec$Role.edit.windowActions#load                         0.0           0           0         0.0           1
+windowActions#xml                                        0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 13:44:00 - 2017-04-01 13:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:46:00 - 2017-04-01 13:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:48:00 - 2017-04-01 13:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:50:00 - 2017-04-01 13:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:52:00 - 2017-04-01 13:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:54:00 - 2017-04-01 13:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:56:00 - 2017-04-01 13:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 13:58:00 - 2017-04-01 14:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:00:00 - 2017-04-01 14:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:02:00 - 2017-04-01 14:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:04:00 - 2017-04-01 14:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:06:00 - 2017-04-01 14:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:08:00 - 2017-04-01 14:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:10:00 - 2017-04-01 14:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:12:00 - 2017-04-01 14:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:14:00 - 2017-04-01 14:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:16:00 - 2017-04-01 14:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:18:00 - 2017-04-01 14:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:20:00 - 2017-04-01 14:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:22:00 - 2017-04-01 14:24:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:24:00 - 2017-04-01 14:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:26:00 - 2017-04-01 14:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:28:00 - 2017-04-01 14:30:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:30:00 - 2017-04-01 14:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:32:00 - 2017-04-01 14:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                         0.0           0           0         0.0           1
+loginWindow#inject                                      20.0          20          20         0.0           1
+loginWindow#load                                       854.0         854         854         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                          0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 14:34:00 - 2017-04-01 14:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:36:00 - 2017-04-01 14:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:38:00 - 2017-04-01 14:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:40:00 - 2017-04-01 14:42:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:42:00 - 2017-04-01 14:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:44:00 - 2017-04-01 14:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:46:00 - 2017-04-01 14:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:48:00 - 2017-04-01 14:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:50:00 - 2017-04-01 14:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:52:00 - 2017-04-01 14:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:54:00 - 2017-04-01 14:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:56:00 - 2017-04-01 14:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 14:58:00 - 2017-04-01 15:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           1
+ams$NewAsset.browse#inject                               0.0           0           0         0.0           1
+ams$NewAsset.browse#load                               142.0         142         142         0.0           1
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           1
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           1
+ams$NewAsset.browse#xml                                  0.0           0           0         0.0           1
+ams$NewAsset.browse@newAssetsDs                       1050.0        1050        1050         0.0           1
+mainWindow#init                                          0.0           0           0         0.0           1
+mainWindow#inject                                        9.0           9           9         0.0           1
+mainWindow#load                                        509.0         509         509         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                           0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-01 15:00:00 - 2017-04-01 15:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+customConditionFrame#xml                                 2.0           2           2         0.0           1
+dynamicAttributesConditionFrame#xml                      2.0           2           2         0.0           1
+filterEditor#companion                                   3.0           3           3         0.0           1
+filterEditor#init                                       60.0          60          60         0.0           1
+filterEditor#inject                                      8.6           0          41        16.2           5
+filterEditor#load                                      702.0         702         702         0.0           1
+filterEditor#ready                                       0.0           0           0         0.0           1
+filterEditor#uiPermissions                               0.0           0           0         0.0           1
+filterEditor#xml                                         5.0           5           5         0.0           1
+filterEditor.customConditionFrame#init                  13.0          13          13         0.0           1
+filterEditor.customConditionFrame#load                  38.0          38          38         0.0           1
+filterEditor.customConditionFrame#uiPermissions          0.0           0           0         0.0           1
+filterEditor.dynamicAttributesConditionFrame#init         2.0           2           2         0.0           1
+filterEditor.dynamicAttributesConditionFrame#load         3.0           3           3         0.0           1
+filterEditor.dynamicAttributesConditionFrame#uiPermissions         0.0           0           0         0.0           1
+filterEditor.groupConditionFrame#init                    0.0           0           0         0.0           1
+filterEditor.groupConditionFrame#load                    0.0           0           0         0.0           1
+filterEditor.groupConditionFrame#uiPermissions           0.0           0           0         0.0           1
+filterEditor.propertyConditionFrame#init                 0.0           0           0         0.0           1
+filterEditor.propertyConditionFrame#load                 2.0           2           2         0.0           1
+filterEditor.propertyConditionFrame#uiPermissions         0.0           0           0         0.0           1
+filterEditor@conditionsDs                                0.0           0           0         0.0           1
+groupConditionFrame#xml                                  2.0           2           2         0.0           1
+propertyConditionFrame#xml                               2.0           2           2         0.0           1
+saveFilter#init                                          0.0           0           0         0.0           1
+saveFilter#inject                                        0.0           0           0         0.0           1
+saveFilter#load                                        112.0         112         112         0.0           1
+saveFilter#ready                                         0.0           0           0         0.0           1
+saveFilter#uiPermissions                                 0.0           0           0         0.0           1
+saveFilter#xml                                          54.0          54          54         0.0           1
+
+Performance Statistics   2017-04-01 15:04:00 - 2017-04-01 15:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+loginWindow#init                                        20.0          20          20         0.0           1
+loginWindow#inject                                      25.0          25          25         0.0           1
+loginWindow#load                                       750.0         750         750         0.0           1
+loginWindow#ready                                        0.0           0           0         0.0           1
+loginWindow#uiPermissions                                0.0           0           0         0.0           1
+loginWindow#xml                                         50.0          50          50         0.0           1
+mainWindow#init                                         62.0          62          62         0.0           1
+mainWindow#inject                                        5.0           5           5         0.0           1
+mainWindow#load                                        437.0         437         437         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                          11.0          11          11         0.0           1
+
+Performance Statistics   2017-04-01 15:06:00 - 2017-04-01 15:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-01 15:08:00 - 2017-04-01 15:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+mainWindow#init                                          1.0           1           1         0.0           1
+mainWindow#inject                                        6.0           6           6         0.0           1
+mainWindow#load                                       4761.0        4761        4761         0.0           1
+mainWindow#ready                                         0.0           0           0         0.0           1
+mainWindow#uiPermissions                                 0.0           0           0         0.0           1
+mainWindow#xml                                          21.0          21          21         0.0           1
+
+Performance Statistics   2017-04-01 15:10:00 - 2017-04-01 15:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   93.0          93          93         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     4.0           4           4         0.0           1
+ams$Asset.browse@assetsDs                               45.0          45          45         0.0           1
+ams$NewAsset.browse#init                                 0.0           0           0         0.0           2
+ams$NewAsset.browse#inject                               2.0           0           4         2.0           2
+ams$NewAsset.browse#load                               587.0          26        1148       561.0           2
+ams$NewAsset.browse#ready                                0.0           0           0         0.0           2
+ams$NewAsset.browse#uiPermissions                        0.0           0           0         0.0           2
+ams$NewAsset.browse#xml                                 10.5           0          21        10.5           2
+ams$NewAsset.browse@newAssetsDs                        468.5         125         812       343.5           2
+ams$NewAsset.edit#init                                   0.0           0           0         0.0           2
+ams$NewAsset.edit#inject                                 0.5           0           1         0.5           4
+ams$NewAsset.edit#load                                 208.5          34         383       174.5           2
+ams$NewAsset.edit#ready                                  0.0           0           0         0.0           2
+ams$NewAsset.edit#setItem                              409.5          23         796       386.5           2
+ams$NewAsset.edit#uiPermissions                          0.0           0           0         0.0           2
+ams$NewAsset.edit#xml                                    5.0           0          10         5.0           2
+ams$NewAsset.edit.windowActions#load                     5.5           0          11         5.5           2
+ams$RequestAsset.browse#init                             1.0           1           1         0.0           1
+ams$RequestAsset.browse#inject                           2.0           2           2         0.0           1
+ams$RequestAsset.browse#load                           129.0         129         129         0.0           1
+ams$RequestAsset.browse#ready                            0.0           0           0         0.0           1
+ams$RequestAsset.browse#uiPermissions                    0.0           0           0         0.0           1
+ams$RequestAsset.browse#xml                             10.0          10          10         0.0           1
+ams$RequestAsset.browse@assetsDs                        39.0          39          39         0.0           1
+ams$RequestAsset.browse@newAssetDs                      27.3          23          30         3.1           3
+ams$Responce_Request.browse#init                         0.0           0           0         0.0           1
+ams$Responce_Request.browse#inject                      40.0          40          40         0.0           1
+ams$Responce_Request.browse#load                        37.0          37          37         0.0           1
+ams$Responce_Request.browse#ready                        0.0           0           0         0.0           1
+ams$Responce_Request.browse#uiPermissions                0.0           0           0         0.0           1
+ams$Responce_Request.browse#xml                          7.0           7           7         0.0           1
+ams$Responce_Request.browse@instancesDs                 31.0          31          31         0.0           1
+windowActions#xml                                        5.0           0          10         5.0           2
+
+Performance Statistics   2017-04-01 15:12:00 - 2017-04-01 15:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+ams$Asset.browse#init                                    0.0           0           0         0.0           1
+ams$Asset.browse#inject                                  0.0           0           0         0.0           1
+ams$Asset.browse#load                                   19.0          19          19         0.0           1
+ams$Asset.browse#ready                                   0.0           0           0         0.0           1
+ams$Asset.browse#uiPermissions                           0.0           0           0         0.0           1
+ams$Asset.browse#xml                                     0.0           0           0         0.0           1
+ams$Asset.browse@assetsDs                               29.0          29          29         0.0           1
+ams$AssetAllocated.browse#init                           0.0           0           0         0.0           1
+ams$AssetAllocated.browse#inject                         0.0           0           0         0.0           1
+ams$AssetAllocated.browse#load                          36.0          36          36         0.0           1
+ams$AssetAllocated.browse#ready                          0.0           0           0         0.0           1
+ams$AssetAllocated.browse#uiPermissions                  0.0           0           0         0.0           1
+ams$AssetAllocated.browse#xml                            5.0           5           5         0.0           1
+ams$AssetAllocated.browse@assetAllocatedsDs             37.0          37          37         0.0           1
+ams$Instance.edit#init                                   0.0           0           0         0.0           1
+ams$Instance.edit#inject                                 0.0           0           0         0.0           2
+ams$Instance.edit#load                                  27.0          27          27         0.0           1
+ams$Instance.edit#ready                                  0.0           0           0         0.0           1
+ams$Instance.edit#setItem                               32.0          32          32         0.0           1
+ams$Instance.edit#uiPermissions                          0.0           0           0         0.0           1
+ams$Instance.edit#xml                                    3.0           3           3         0.0           1
+ams$Instance.edit.windowActions#load                     0.0           0           0         0.0           1
+ams$Suplier.browse#init                                  0.0           0           0         0.0           1
+ams$Suplier.browse#inject                                0.0           0           0         0.0           1
+ams$Suplier.browse#load                                 30.0          30          30         0.0           1
+ams$Suplier.browse#ready                                 0.0           0           0         0.0           1
+ams$Suplier.browse#uiPermissions                         0.0           0           0         0.0           1
+ams$Suplier.browse#xml                                   4.0           4           4         0.0           1
+ams$Suplier.browse@supliersDs                           47.0          47          47         0.0           1
+loginWindow#init                                         0.0           0           0         0.0           2
+loginWindow#inject                                       0.5           0           1         0.5           2
+loginWindow#load                                         9.5           8          11         1.5           2
+loginWindow#ready                                        0.0           0           0         0.0           2
+loginWindow#uiPermissions                                0.0           0           0         0.0           2
+loginWindow#xml                                          0.0           0           0         0.0           2
+windowActions#xml                                        2.0           2           2         0.0           1
+

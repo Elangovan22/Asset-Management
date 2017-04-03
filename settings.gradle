@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+rootProject.name = 'AMS'
+include(':app-global', ':app-core', ':app-gui', ':app-web', 'app-web-themes')
+project(':app-global').projectDir = new File(settingsDir, 'modules/global')
+project(':app-core').projectDir = new File(settingsDir, 'modules/core')
+project(':app-gui').projectDir = new File(settingsDir, 'modules/gui')
+project(':app-web').projectDir = new File(settingsDir, 'modules/web')
+project(':app-web-themes').projectDir = new File(settingsDir, 'modules/web/themes')
+=======
+rootProject.name = 'Asset_Management'
+include(':app-global', ':app-core', ':app-gui', ':app-web')
+project(':app-global').projectDir = new File(settingsDir, 'modules/global')
+project(':app-core').projectDir = new File(settingsDir, 'modules/core')
+project(':app-gui').projectDir = new File(settingsDir, 'modules/gui')
+project(':app-web').projectDir = new File(settingsDir, 'modules/web')
+>>>>>>> 16716aadcd30f689e4d1c39cb5ad9f92924a1cd3

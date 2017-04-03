@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.ams.web.loginwindow.ExtAppLoginWindow"
+        extends="/com/haulmont/cuba/web/app/loginwindow/loginwindow.xml"
+        messagesPack="com.company.ams.web.loginwindow">
+    
+    
+     <layout>
+        <vbox id="loginWrapper"
+              stylename="image">
+            <vbox id="loginMainBox">
+                <hbox id="loginTitleBox">
+                    <label id="welcomeLabel"
+                           value="AMS"/>
+                </hbox>
+                <grid id="loginFormLayout">
+                    <rows>
+                        <row id="loginFieldRow">
+                            <label id="loginFieldLabel"
+                                   value="User name"/>
+                        </row>
+                        <row id="passwordFieldRow">
+                            <label id="passwordFieldLabel"
+                                   value="Password"/>
+                        </row>
+                        <row id="localesRow">
+                            <label id="localesSelectLabel"
+                                   height="0px"
+                                   visible="false"
+                                   width="0px"/>
+                            <lookupField id="localesSelect"
+                                         editable="false"
+                                         enable="false"
+                                         height="0px"
+                                         width="0px"/>
+                        </row>
+                    </rows>
+                </grid>
+            </vbox>
+        </vbox>
+        <label id="poweredByLink"
+               height="0px"
+               htmlEnabled="false"
+               visible="false"
+               width="0px"/>
+    </layout>
+    
+    
+</window>

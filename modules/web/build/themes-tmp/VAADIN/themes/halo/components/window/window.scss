@@ -1,0 +1,95 @@
+/*
+ * Copyright (c) 2008-2016 Haulmont.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+$v-window-nonmodal-shadow: 0 0 20px rgba(0,0,0,0.5) !default;
+
+@mixin halo-window($primary-stylename: v-window) {
+  .#{$primary-stylename}-contents {
+    padding-left: round($v-unit-size/2);
+    padding-right: round($v-unit-size/2);
+
+    & > .v-scrollable > .v-layout:first-child {
+      padding-top: round($v-unit-size/3);
+    }
+  }
+
+  .#{$primary-stylename}-nonmodal {
+    @include box-shadow($v-window-nonmodal-shadow);
+  }
+
+  .#{$primary-stylename}-footer {
+    padding-bottom: round($v-unit-size/2);
+  }
+
+  .#{$primary-stylename}-outerheader:after {
+    display: none;
+  }
+
+  $background-color: $v-table-background-color or valo-table-background-color();
+
+  .#{$primary-stylename}-outerheader {
+    border-bottom: valo-border();
+    $bg-lightness: if(color-luminance($background-color) < 10, 4%, -4%);
+    background-color: scale-color($background-color, $lightness: $bg-lightness);
+
+    .v-mac & {
+        border-radius: $v-window-border-radius $v-window-border-radius 0 0;
+    }
+  }
+
+  .#{$primary-stylename}-outerheader .#{$primary-stylename}-header .v-icon {
+    margin-right: ceil($v-layout-margin-right/2);
+  }
+
+  .#{$primary-stylename}-outerheader {
+    .#{$primary-stylename}-closebox,
+    .#{$primary-stylename}-maximizebox,
+    .#{$primary-stylename}-restorebox,
+    .#{$primary-stylename}-header {
+      color: inherit;
+      background-color: inherit;
+    }
+
+    .v-mac & {
+      .#{$primary-stylename}-header {
+        border-top-left-radius: $v-window-border-radius;
+      }
+    }
+  }
+
+  @if ($v-window-animations-enabled == false) {
+    .#{$primary-stylename} {
+      @include animation(none);
+      @include transition(none);
+
+      &[class*="animate-in"] {
+        @include animation(none);
+      }
+      &[class*="animate-out"] {
+        @include animation(none);
+      }
+    }
+
+    .#{$primary-stylename}-modalitycurtain {
+      @include animation(none);
+    }
+  }
+
+  .#{$primary-stylename}-modalitycurtain {
+    background-image: none;
+  }
+}

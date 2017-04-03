@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application"
+          insertBefore="administration">
+        <item id="assetmanagement$New_Asset.browse"/>
+        <item id="assetmanagement$Request.browse"/>
+        <item id="assetmanagement$Status.browse"/>
+        <item id="assetmanagement$Supplier.browse"/>
+        <item id="assetmanagement$Asset.browse"/>
+    </menu>
+</menu-config>

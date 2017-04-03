@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.ams.web.newasset.NewAssetEdit"
+        datasource="newAssetDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.ams.web.newasset">
+    <dsContext>
+        <datasource id="newAssetDs"
+                    class="com.company.ams.entity.NewAsset"
+                    view="newAsset-view">
+            <collectionDatasource id="suplierDs"
+                                  property="suplier"/>
+        </datasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="newAssetDs">
+            <column width="250px">
+                <field id="name"/>
+                <field id="assetid"/>
+                <field id="company"/>
+                <field id="modelname"/>
+                <field id="quantity"/>
+                <field id="availablequantity"/>
+                <field id="cost"/>
+                <field id="purchasedate"/>
+                <field id="status"/>
+            </column>
+        </fieldGroup>
+        <groupBox id="suplierBox"
+                  caption="msg://com.company.ams.entity/NewAsset.suplier">
+            <table id="suplierTable"
+                   height="200px"
+                   width="100%">
+                <actions>
+                    <action id="add"/>
+                    <action id="remove"/>
+                </actions>
+                <columns>
+                    <column id="state"/>
+                    <column id="place"/>
+                    <column id="name"/>
+                </columns>
+                <rows datasource="suplierDs"/>
+                <buttonsPanel>
+                    <button action="suplierTable.add"/>
+                    <button action="suplierTable.remove"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <frame id="windowActions"
+               screen="extendedEditWindowActions"/>
+    </layout>
+</window>

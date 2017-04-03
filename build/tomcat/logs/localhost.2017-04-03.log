@@ -1,0 +1,111 @@
+03-Apr-2017 10:13:43.439 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:13:43.474 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:14:16.481 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:14:18.996 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:14:18.997 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:14:27.276 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:14:30.163 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:23:25.038 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:23:25.161 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:23:25.691 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:24:10.472 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:24:10.535 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:24:39.969 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:24:42.209 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:24:42.210 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:24:50.085 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:24:53.761 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:26:13.202 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:26:13.248 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:26:13.416 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:26:41.981 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:26:42.024 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:27:10.192 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:27:12.632 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:27:12.633 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:27:23.659 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:27:28.200 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:27:35.516 SEVERE [http-nio-8080-exec-42] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [app_servlet] in context with path [/app] threw exception [com.vaadin.server.ServiceException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe] with root cause
+ java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:124)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:172)
+	at org.apache.coyote.http11.InternalNioOutputBuffer.writeToSocket(InternalNioOutputBuffer.java:139)
+	at org.apache.coyote.http11.InternalNioOutputBuffer.addToBB(InternalNioOutputBuffer.java:197)
+	at org.apache.coyote.http11.InternalNioOutputBuffer.access$000(InternalNioOutputBuffer.java:41)
+	at org.apache.coyote.http11.InternalNioOutputBuffer$SocketOutputBuffer.doWrite(InternalNioOutputBuffer.java:320)
+	at org.apache.coyote.http11.filters.IdentityOutputFilter.doWrite(IdentityOutputFilter.java:84)
+	at org.apache.coyote.http11.AbstractOutputBuffer.doWrite(AbstractOutputBuffer.java:256)
+	at org.apache.coyote.Response.doWrite(Response.java:491)
+	at org.apache.catalina.connector.OutputBuffer.realWriteBytes(OutputBuffer.java:391)
+	at org.apache.tomcat.util.buf.ByteChunk.flushBuffer(ByteChunk.java:426)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:345)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:298)
+	at org.apache.catalina.connector.CoyoteOutputStream.close(CoyoteOutputStream.java:151)
+	at sun.nio.cs.StreamEncoder.implClose(StreamEncoder.java:320)
+	at sun.nio.cs.StreamEncoder.close(StreamEncoder.java:149)
+	at java.io.OutputStreamWriter.close(OutputStreamWriter.java:233)
+	at java.io.BufferedWriter.close(BufferedWriter.java:266)
+	at com.vaadin.server.BootstrapHandler.writeBootstrapPage(BootstrapHandler.java:339)
+	at com.vaadin.server.BootstrapHandler.synchronizedHandleRequest(BootstrapHandler.java:270)
+	at com.vaadin.server.SynchronizedRequestHandler.handleRequest(SynchronizedRequestHandler.java:41)
+	at com.haulmont.cuba.web.sys.CubaVaadinServletService$CubaServletBootstrapHandler.handleRequest(CubaVaadinServletService.java:279)
+	at com.vaadin.server.VaadinService.handleRequest(VaadinService.java:1424)
+	at com.vaadin.server.VaadinServlet.service(VaadinServlet.java:369)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.serviceAppRequest(CubaApplicationServlet.java:278)
+	at com.haulmont.cuba.web.sys.CubaApplicationServlet.service(CubaApplicationServlet.java:187)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.handleNotFiltered(CubaHttpFilter.java:108)
+	at com.haulmont.cuba.web.sys.CubaHttpFilter.doFilter(CubaHttpFilter.java:95)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:528)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1099)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1520)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1476)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+03-Apr-2017 10:29:10.715 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:29:10.784 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:29:11.133 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:30:03.041 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:30:03.107 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:30:49.626 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:30:53.485 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:30:53.486 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:31:04.157 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:31:09.052 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:40:59.901 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+03-Apr-2017 10:41:00.086 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:41:00.822 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:41:54.044 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:41:54.106 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:42:29.403 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
+03-Apr-2017 10:42:31.418 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+03-Apr-2017 10:42:31.419 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+03-Apr-2017 10:42:39.500 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 10:42:43.078 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+03-Apr-2017 11:14:50.271 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
+03-Apr-2017 11:14:52.972 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+03-Apr-2017 11:14:57.765 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'

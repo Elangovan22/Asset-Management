@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.ams.web.instance.InstanceEdit"
+        datasource="instanceDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.ams.web.instance">
+    <dsContext>
+        <datasource id="instanceDs"
+                    class="com.company.ams.entity.Instance"
+                    view="_local"/>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="instanceDs">
+            <column width="250px">
+                <field id="user"/>
+                <field id="assetid"/>
+                <field id="name"/>
+                <field id="company"/>
+                <field id="totalquantity"/>
+                <field id="neededquantity"/>
+                <field id="modelname"/>
+                <field id="teamviewer"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

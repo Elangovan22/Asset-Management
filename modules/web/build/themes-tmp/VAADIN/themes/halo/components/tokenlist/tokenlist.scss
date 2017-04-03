@@ -1,0 +1,110 @@
+/*
+ * Copyright (c) 2008-2016 Haulmont.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+@mixin halo-cuba-tokenlist($primary-stylename: cuba-tokenlist) {
+  .#{$primary-stylename} .v-csslayout {
+    clear: both;
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label.v-widget {
+    clear: both;
+    margin: 0 round($v-layout-margin-right/2) round($v-layout-margin-bottom/2) 0;
+    height: $v-unit-size;
+    cursor: pointer;
+    display: block;
+    padding-left: round($v-layout-margin-left/2);
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label-close {
+    height: $v-unit-size;
+    width: $v-unit-size;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: $v-font-size;
+    line-height: $v-unit-size;
+
+    &:after {
+      font-family: FontAwesome;
+      content: "\f00d";
+    }
+  }
+
+  .#{$primary-stylename}.v-disabled .cuba-tokenlist-label-close{
+    @include opacity($v-disabled-opacity);
+  }
+
+  .#{$primary-stylename}.readonly .cuba-tokenlist-label-close{
+    display: none;
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label-content {
+    white-space: nowrap;
+    outline: none;
+    font-size: 0;
+    padding-right: $v-unit-size;
+    overflow: hidden;
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label-content .content {
+    white-space: nowrap;
+    cursor: default;
+    overflow: hidden;
+    display: inline-block;
+    line-height: $v-unit-size;
+    font-size: $v-font-size;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .#{$primary-stylename} .v-panel {
+    border: none;
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label.noedit {
+    background-image: none;
+    padding-right: $v-layout-margin-right;
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label-content.noedit .content {
+    margin-right: 0;
+  }
+
+  .#{$primary-stylename} .cuba-tokenlist-label.open .content {
+    cursor: pointer;
+  }
+
+  .#{$primary-stylename}.inline {
+    .cuba-tokenlist-label.v-widget {
+      clear: none;
+      margin-right: round($v-layout-margin-right/2);
+      float: left;
+    }
+
+    .cuba-tokenlist-label.v-widget {
+      display: inline-block;
+    }
+
+    .cuba-tokenlist-label-content {
+      padding-right: 0;
+    }
+
+    .cuba-tokenlist-label-content .content {
+      width: auto;
+    }
+  }
+}

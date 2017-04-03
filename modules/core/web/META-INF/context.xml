@@ -1,0 +1,22 @@
+<Context>
+
+    <!-- Database connection -->
+    <Resource
+      name="jdbc/CubaDS"
+      type="javax.sql.DataSource"
+      maxTotal="20"
+      maxIdle="2"
+      maxWaitMillis="5000"
+      driverClassName="org.hsqldb.jdbc.JDBCDriver"
+<<<<<<< HEAD
+      url="jdbc:hsqldb:hsql://localhost/ams"
+=======
+      url="jdbc:hsqldb:hsql://localhost/assetmanagement"
+>>>>>>> 16716aadcd30f689e4d1c39cb5ad9f92924a1cd3
+      username="sa"
+      password=""/>
+
+    <!-- Switch off session serialization -->
+    <Manager pathname=""/>
+
+</Context>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<views xmlns="http://schemas.haulmont.com/cuba/view.xsd">
+    <view class="com.company.ams.entity.NewAsset"
+          extends="_local"
+          name="newAsset-view">
+        <property name="name"
+                  view="_minimal">
+            <property name="name"/>
+        </property>
+        <property name="suplier"
+                  view="_minimal">
+            <property name="state"/>
+            <property name="place"/>
+            <property name="name"/>
+        </property>
+    </view>
+    <view class="com.company.ams.entity.Instance"
+          extends="_local"
+          name="instance-view"/>
+</views>

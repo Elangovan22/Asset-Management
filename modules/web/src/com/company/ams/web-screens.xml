@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="com/company/ams/screens.xml"/>
+    <screen id="ams$Asset.browse"
+            template="com/company/ams/web/asset/asset-browse.xml"/>
+    <screen id="ams$Asset.edit"
+            template="com/company/ams/web/asset/asset-edit.xml"/>
+    <screen id="ams$Suplier.edit"
+            template="com/company/ams/web/suplier/suplier-edit.xml"/>
+    <screen id="ams$Suplier.browse"
+            template="com/company/ams/web/suplier/suplier-browse.xml"/>
+    <screen id="ams$NewAsset.browse"
+            template="com/company/ams/web/newasset/new-asset-browse.xml"/>
+    <screen id="ams$NewAsset.edit"
+            template="com/company/ams/web/newasset/new-asset-edit.xml"/>
+    <screen id="ams$RequestAsset.browse"
+            template="com/company/ams/web/requestasset/request-asset-browse.xml"/>
+    <screen id="ams$Responce_Request.browse"
+            template="com/company/ams/web/responce_request/responce_request-browse.xml"/>
+    <screen id="ams$Instance.browse"
+            template="com/company/ams/web/instance/instance-browse.xml"/>
+    <screen id="ams$Instance.edit"
+            template="com/company/ams/web/instance/instance-edit.xml"/>
+    <screen id="ams$AssetAllocated.edit"
+            template="com/company/ams/web/assetallocated/asset-allocated-edit.xml"/>
+    <screen id="ams$AssetAllocated.browse"
+            template="com/company/ams/web/assetallocated/asset-allocated-browse.xml"/>
+    <screen id="loginWindow"
+            template="com/company/ams/web/loginwindow/ext-loginwindow.xml"/>
+    <screen id="mainWindow"
+            template="com/company/ams/web/mainwindow/ext-mainwindow.xml"/>
+</screen-config>

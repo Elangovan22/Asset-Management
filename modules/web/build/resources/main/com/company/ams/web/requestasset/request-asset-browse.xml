@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.ams.web.requestasset.RequestAssetBrowse"
+        messagesPack="com.company.ams.web.requestasset">
+    <dsContext>
+        <collectionDatasource id="assetsDs"
+                              class="com.company.ams.entity.Asset"
+                              view="_minimal">
+            <query>
+                <![CDATA[select b from ams$Asset b
+order by b.name]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="instancesDs"
+                              class="com.company.ams.entity.Instance"
+                              refreshMode="NEVER"
+                              view="instance-view"/>
+        <collectionDatasource id="newAssetDs"
+                              class="com.company.ams.entity.NewAsset"
+                              view="_minimal">
+            <query>
+                <![CDATA[select p from ams$NewAsset p
+where p.name.id = :component$assetField.id
+order by p.name.name]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <actions>
+        <action id="createAsset"
+                caption="msg://actions.Create"
+                icon="icons/create.png"
+                invoke="createAsset"/>
+    </actions>
+    <dialogMode height="1000"
+                width="1000"/>
+    <layout expand="itemsGroupBox"
+            spacing="true">
+        <groupBox caption="msg://selectAsset"
+                  orientation="horizontal"
+                  spacing="true">
+            <grid spacing="true">
+                <columns count="5"/>
+                <rows>
+                    <row>
+                        <label height="22px"
+                               value="msg://Select Asset "/>
+                        <lookupPickerField id="assetField"
+                                           optionsDatasource="assetsDs"
+                                           width="300px"/>
+                        <label height="22px"
+                               value="msg://Enter Employee id"/>
+                        <textField id="userid"
+                                   datatype="string"/>
+                    </row>
+                </rows>
+            </grid>
+        </groupBox>
+        <groupBox caption="msg://selectcompany"
+                  spacing="true">
+            <table id="newAssetsTable"
+                   height="100px"
+                   hieght="100px"
+                   width="100%">
+                <actions>
+                    <action id="createcompnay"
+                            caption="msg://createcompany"
+                            icon="icons/create.png"
+                            invoke="createcompany"
+                            shortcut="Ctrl-Insert"/>
+                    <action id="edit"/>
+                    <action id="remove"/>
+                </actions>
+                <columns>
+                    <column id="assetid"/>
+                    <column id="company"/>
+                    <column id="modelname"/>
+                    <column id="status"/>
+                    <column id="availablequantity"/>
+                </columns>
+                <rows datasource="newAssetDs"/>
+            </table>
+        </groupBox>
+        <groupBox caption="msg://Enter quantity "
+                  orientation="horizontal">
+            <grid spacing="true">
+                <columns count="5"/>
+                <rows>
+                    <row>
+                        <label height="22px"
+                               value="msg://Enter quantity "/>
+                        <textField id="instancesAmountField"
+                                   datatype="int"/>
+                        <label height="22px"
+                               value="msg://Enter teamviewer id "/>
+                        <textField id="teamviewer"
+                                   datatype="int"/>
+                        <button id="createInstancesButtonBtn"
+                                caption="ok"
+                                invoke="createInstances"/>
+                    </row>
+                </rows>
+            </grid>
+        </groupBox>
+        <groupBox id="itemsGroupBox"
+                  caption="msg://createdInstances"
+                  expand="instancesTable"
+                  spacing="true">
+            <table id="instancesTable"
+                   multiselect="true"
+                   width="100%">
+                <columns>
+                    <column id="user"/>
+                    <column id="assetid"/>
+                    <column id="name"/>
+                    <column id="company"/>
+                    <column id="modelname"/>
+                    <column id="totalquantity"/>
+                    <column id="neededquantity"/>
+                    <column id="teamviewer"/>
+                </columns>
+                <rows datasource="instancesDs"/>
+            </table>
+            <button id="send"
+                    caption="req"
+                    invoke="req"/>
+        </groupBox>
+    </layout>
+</window>

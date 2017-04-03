@@ -1,0 +1,433 @@
+Performance Statistics   2017-04-03 10:14:00 - 2017-04-03 10:15:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              32.0          32          32         0.0           1
+LoadClass                                                3.0           0           9         4.2           6
+Messages.searchClasspath                                 0.2           0          13         1.2         538
+Messages.searchFiles                                     0.1           0          42         1.8         538
+Metadata.replaceExtendedMetaClasses                      4.0           3           5         1.0           2
+PersistenceSecurity.applyConstraints(..)                55.0          55          55         0.0           1
+QueryParser.getEntityAlias()                             4.0           4           4         0.0           1
+QueryParser.getEntityName()                             31.9           1         466       105.5          18
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.5           0           6         1.4          17
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.1           0           1         0.2          17
+QueryParser.getParamNames()                              1.1           0          14         3.2          18
+QueryParser.hasIsNullCondition(..)                      43.0          43          43         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           4
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           4
+QueryTransformer.addFirstSelectionSource(..)             0.3           0           1         0.4           4
+QueryTransformer.addWhereAsIs(..)                        1.3           0           3         1.3           4
+QueryTransformer.getResult()                             3.3           0          13         5.6           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         3.3           1           9         3.3           4
+SearchFolders                                           69.0          69          69         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.3           0           1         0.5           3
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           1
+ViewRepository.init.ViewRepositoryClientImpl            47.0          47          47         0.0           1
+
+Performance Statistics   2017-04-03 10:15:00 - 2017-04-03 10:16:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              36.0          36          36         0.0           1
+LoadClass                                                0.1           0           2         0.5          16
+MenuItem.ams$NewAsset.browse                           623.5         353         894       270.5           2
+MenuItem.ams$RequestAsset.browse                      1009.0         132        1886       877.0           2
+Messages.searchClasspath                                 0.0           0           2         0.2         545
+Messages.searchFiles                                     0.0           0           1         0.1         545
+PersistenceSecurity.applyConstraints(..)                 4.1           2          10         2.7          12
+QueryParser.getEntityAlias()                             0.9           0           4         1.4           8
+QueryParser.getEntityName()                              0.8           0           3         0.8          50
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.1           0           5         0.8          38
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           1         0.2          38
+QueryParser.getParamNames()                              0.3           0           4         0.9          50
+QueryParser.hasIsNullCondition(..)                       1.0           0           3         1.2           7
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           4
+QueryParser.isParameterInCondition(..)                   3.5           0           7         3.5           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           4
+QueryTransformer.addFirstSelectionSource(..)             0.3           0           1         0.4           4
+QueryTransformer.addWhereAsIs(..)                        0.0           0           0         0.0           4
+QueryTransformer.getResult()                             0.0           0           0         0.0           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         0.8           0           1         0.4           4
+SearchFolders                                           20.0          20          20         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.0           0           8         0.4        1178
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0          12
+ViewRepository.init.ViewRepositoryImpl                  27.0          27          27         0.0           1
+
+Performance Statistics   2017-04-03 10:16:00 - 2017-04-03 10:17:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              16.0          16          16         0.0           1
+LoadClass                                                0.8           0           3         0.9          17
+MenuItem.sec$Role.browse                               180.0         180         180         0.0           1
+Messages.searchClasspath                                 0.1           0          45         1.4        1135
+Messages.searchFiles                                     0.0           0           3         0.1        1135
+PersistenceSecurity.applyConstraints(..)                 2.6           1           4         1.0           5
+QueryParser.getEntityAlias()                             2.0           2           2         0.0           1
+QueryParser.getEntityName()                              0.7           0           2         0.7          27
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           1         0.2          22
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          22
+QueryParser.getParamNames()                              0.1           0           2         0.4          27
+QueryParser.hasIsNullCondition(..)                       3.0           3           3         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        0.0           0           0         0.0           2
+QueryTransformer.getResult()                             0.0           0           0         0.0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0.0           0           0         0.0           2
+SearchFolders                                           15.0          15          15         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.0           0           0         0.0         361
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           5
+
+Performance Statistics   2017-04-03 10:17:00 - 2017-04-03 10:18:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                0.8           0           1         0.4           4
+Messages.searchClasspath                                 0.1           0           1         0.2          16
+Messages.searchFiles                                     0.0           0           0         0.0          16
+PersistenceSecurity.applyConstraints(..)                 3.0           3           3         0.0           1
+QueryParser.getEntityName()                              0.5           0           1         0.5           2
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           1
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           1
+QueryParser.getParamNames()                              0.0           0           0         0.0           2
+Security.isEntityAttrReadPermitted(..)                   0.0           0           3         0.1        1635
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           1
+
+Performance Statistics   2017-04-03 10:18:00 - 2017-04-03 10:19:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              14.0          14          14         0.0           1
+LoadClass                                                0.0           0           0         0.0           9
+MenuItem.ams$NewAsset.browse                           186.0         186         186         0.0           1
+PersistenceSecurity.applyConstraints(..)                 2.0           1           3         1.0           4
+QueryParser.getEntityAlias()                             0.5           0           1         0.5           4
+QueryParser.getEntityName()                              0.4           0           2         0.6          25
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          21
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          21
+QueryParser.getParamNames()                              0.1           0           1         0.3          25
+QueryParser.hasIsNullCondition(..)                       0.8           0           2         0.8           4
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        0.0           0           0         0.0           2
+QueryTransformer.getResult()                             0.0           0           0         0.0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0.0           0           0         0.0           2
+SearchFolders                                            9.0           9           9         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.0           0           0         0.0         456
+Security.isEntityAttrUpdatePermitted(..)                 0.0           0           0         0.0          25
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           6
+
+Performance Statistics   2017-04-03 10:19:00 - 2017-04-03 10:20:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              11.0          11          11         0.0           1
+LoadClass                                                0.0           0           0         0.0          21
+MenuItem.ams$RequestAsset.browse                       117.0         117         117         0.0           1
+MenuItem.sec$Role.browse                                68.0          68          68         0.0           1
+Messages.searchClasspath                                 0.0           0           0         0.0           4
+Messages.searchFiles                                     0.0           0           0         0.0           4
+PersistenceSecurity.applyConstraints(..)                 2.0           1           4         1.0           8
+QueryParser.getEntityAlias()                             2.0           2           2         0.0           1
+QueryParser.getEntityName()                              0.4           0           4         0.8          38
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          30
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          30
+QueryParser.getParamNames()                              0.1           0           3         0.6          38
+QueryParser.hasIsNullCondition(..)                       3.0           3           3         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryParser.isParameterInCondition(..)                   0.0           0           0         0.0           1
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        0.0           0           0         0.0           2
+QueryTransformer.getResult()                             1.0           0           2         1.0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0.0           0           0         0.0           2
+SearchFolders                                           14.0          14          14         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.0           0           4         0.2         576
+Security.isEntityAttrUpdatePermitted(..)                 0.0           0           0         0.0           9
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0          11
+
+Performance Statistics   2017-04-03 10:20:00 - 2017-04-03 10:21:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              25.0          25          25         0.0           1
+LoadClass                                                0.0           0           0         0.0           4
+MenuItem.ams$RequestAsset.browse                       105.0         105         105         0.0           1
+PersistenceSecurity.applyConstraints(..)                 2.0           1           3         0.7           4
+QueryParser.getEntityAlias()                             2.0           2           2         0.0           1
+QueryParser.getEntityName()                              0.5           0           2         0.7          21
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          17
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          17
+QueryParser.getParamNames()                              0.1           0           2         0.4          21
+QueryParser.hasIsNullCondition(..)                       2.0           2           2         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryParser.isParameterInCondition(..)                   0.0           0           0         0.0           1
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        0.0           0           0         0.0           2
+QueryTransformer.getResult()                             0.0           0           0         0.0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         0.5           0           1         0.5           2
+SearchFolders                                           24.0          24          24         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.0           0           0         0.0         158
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           5
+
+Performance Statistics   2017-04-03 10:21:00 - 2017-04-03 10:22:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:22:00 - 2017-04-03 10:23:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:24:00 - 2017-04-03 10:25:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0.4           0          15         1.9         160
+Messages.searchFiles                                     0.6           0          55         4.6         160
+Metadata.replaceExtendedMetaClasses                      2.0           2           2         0.0           1
+QueryParser.getEntityName()                            150.3           4         437       202.7           3
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           3
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           3
+QueryParser.getParamNames()                              0.3           0           1         0.5           3
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        1.0           0           2         1.0           2
+QueryTransformer.getResult()                             1.5           0           3         1.5           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         2.0           1           3         1.0           2
+
+Performance Statistics   2017-04-03 10:25:00 - 2017-04-03 10:26:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              22.0          22          22         0.0           1
+LoadClass                                                1.8           0           4         1.8           4
+Messages.searchClasspath                                 0.1           0           7         0.8         378
+Messages.searchFiles                                     0.0           0           6         0.4         378
+Metadata.replaceExtendedMetaClasses                      3.0           3           3         0.0           1
+PersistenceSecurity.applyConstraints(..)                42.0          42          42         0.0           1
+QueryParser.getEntityAlias()                             5.0           5           5         0.0           1
+QueryParser.getEntityName()                              3.4           1          13         3.3          14
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          13
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          13
+QueryParser.getParamNames()                              0.4           0           5         1.3          14
+QueryParser.hasIsNullCondition(..)                      35.0          35          35         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        1.0           0           2         1.0           2
+QueryTransformer.getResult()                             0.0           0           0         0.0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)        10.5          10          11         0.5           2
+SearchFolders                                           54.0          54          54         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.0           0           0         0.0           3
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           1
+ViewRepository.init.ViewRepositoryClientImpl            48.0          48          48         0.0           1
+
+Performance Statistics   2017-04-03 10:26:00 - 2017-04-03 10:27:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0.3           0           8         1.1          60
+Messages.searchFiles                                     0.4           0          24         3.1          60
+
+Performance Statistics   2017-04-03 10:27:00 - 2017-04-03 10:28:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              47.0          47          47         0.0           1
+LoadClass                                                2.8           0           7         2.9           4
+Messages.searchClasspath                                 0.4           0          60         3.8         478
+Messages.searchFiles                                     0.0           0           9         0.5         478
+Metadata.replaceExtendedMetaClasses                     11.0           3          19         8.0           2
+PersistenceSecurity.applyConstraints(..)               211.0         211         211         0.0           1
+QueryParser.getEntityAlias()                             5.0           5           5         0.0           1
+QueryParser.getEntityName()                             27.5           1         404        94.2          17
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.5           0           5         1.3          16
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.2           0           2         0.5          16
+QueryParser.getParamNames()                              0.6           0           7         1.7          17
+QueryParser.hasIsNullCondition(..)                      66.0          66          66         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          1.5           0           6         2.6           4
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           4
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           4
+QueryTransformer.addWhereAsIs(..)                        0.8           0           3         1.3           4
+QueryTransformer.getResult()                             0.8           0           3         1.3           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         1.8           1           3         0.8           4
+SearchFolders                                           74.0          74          74         0.0           1
+Security.isEntityAttrReadPermitted(..)                   0.3           0           1         0.5           3
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           1
+ViewRepository.init.ViewRepositoryClientImpl            47.0          47          47         0.0           1
+
+Performance Statistics   2017-04-03 10:28:00 - 2017-04-03 10:29:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                2.0           0           4         2.0           2
+MenuItem.ams$NewAsset.browse                          3192.0        3192        3192         0.0           1
+Messages.searchClasspath                                 0.0           0           2         0.2         299
+Messages.searchFiles                                     0.0           0           1         0.1         299
+PersistenceSecurity.applyConstraints(..)                 3.5           3           4         0.5           2
+QueryParser.getEntityAlias()                             0.7           0           2         0.9           3
+QueryParser.getEntityName()                              1.4           0           4         1.3           7
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           5
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.2           0           1         0.4           5
+QueryParser.getParamNames()                              0.3           0           2         0.7           7
+QueryParser.hasIsNullCondition(..)                       1.5           1           2         0.5           2
+Security.isEntityAttrReadPermitted(..)                   0.0           0           6         0.4         440
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           2
+ViewRepository.init.ViewRepositoryImpl                  93.0          93          93         0.0           1
+
+Performance Statistics   2017-04-03 10:30:00 - 2017-04-03 10:31:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 1.1           0          57         6.4         160
+Messages.searchFiles                                     0.6           0          82         6.5         160
+Metadata.replaceExtendedMetaClasses                     13.0          13          13         0.0           1
+QueryParser.getEntityName()                            400.0          11        1172       545.9           3
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           3
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           3
+QueryParser.getParamNames()                              3.0           0           9         4.2           3
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             1.5           1           2         0.5           2
+QueryTransformer.addWhereAsIs(..)                        8.0           2          14         6.0           2
+QueryTransformer.getResult()                             8.0           0          16         8.0           2
+QueryTransformer.replaceWithSelectEntityVariable(..)        25.5           8          43        17.5           2
+
+Performance Statistics   2017-04-03 10:31:00 - 2017-04-03 10:32:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+LoadClass                                                1.5           0           3         1.5           2
+Messages.searchClasspath                                 1.1           0          53         5.8         106
+Messages.searchFiles                                     0.0           0           0         0.0         106
+Metadata.replaceExtendedMetaClasses                      3.0           3           3         0.0           1
+
+Performance Statistics   2017-04-03 10:32:00 - 2017-04-03 10:33:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:33:00 - 2017-04-03 10:34:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:34:00 - 2017-04-03 10:35:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:35:00 - 2017-04-03 10:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:36:00 - 2017-04-03 10:37:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:37:00 - 2017-04-03 10:38:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:38:00 - 2017-04-03 10:39:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:39:00 - 2017-04-03 10:40:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+AppFolders                                              54.0          54          54         0.0           1
+LoadClass                                                3.0           0           6         3.0           2
+Messages.searchClasspath                                 0.0           0           4         0.3         272
+Messages.searchFiles                                     0.0           0           4         0.2         272
+PersistenceSecurity.applyConstraints(..)               121.0         121         121         0.0           1
+QueryParser.getEntityAlias()                            14.0          14          14         0.0           1
+QueryParser.getEntityName()                              4.5           0          22         5.9          17
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          16
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0          16
+QueryParser.getParamNames()                              0.7           0          12         2.8          17
+QueryParser.hasIsNullCondition(..)                      88.0          88          88         0.0           1
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           4
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           4
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           4
+QueryTransformer.addWhereAsIs(..)                        0.3           0           1         0.4           4
+QueryTransformer.getResult()                             0.0           0           0         0.0           4
+QueryTransformer.replaceWithSelectEntityVariable(..)         1.5           1           2         0.5           4
+SearchFolders                                          152.0         152         152         0.0           1
+Security.isEntityAttrReadPermitted(..)                   1.0           0           3         1.4           3
+Security.isEntityOpPermitted(..)                         0.0           0           0         0.0           1
+ViewRepository.init.ViewRepositoryClientImpl           117.0         117         117         0.0           1
+
+Performance Statistics   2017-04-03 10:42:00 - 2017-04-03 10:43:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+Messages.searchClasspath                                 0.3           0          12         1.4         196
+Messages.searchFiles                                     0.3           0          54         3.8         196
+Metadata.replaceExtendedMetaClasses                      2.0           2           2         0.0           1
+QueryParser.getEntityName()                            134.3           4         390       180.8           3
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           3
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0.0           0           0         0.0           3
+QueryParser.getParamNames()                              0.3           0           1         0.5           3
+QueryParser.isCollectionSecondaryEntitySelect()          0.0           0           0         0.0           2
+QueryTransformer.addEntityInGroupBy(..)                  0.0           0           0         0.0           2
+QueryTransformer.addFirstSelectionSource(..)             0.0           0           0         0.0           2
+QueryTransformer.addWhereAsIs(..)                        1.0           0           2         1.0           2
+QueryTransformer.getResult()                             1.5           0           3         1.5           2
+QueryTransformer.replaceWithSelectEntityVariable(..)         2.0           1           3         1.0           2
+
+Performance Statistics   2017-04-03 10:43:00 - 2017-04-03 10:44:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:44:00 - 2017-04-03 10:45:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:45:00 - 2017-04-03 10:46:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:46:00 - 2017-04-03 10:47:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:47:00 - 2017-04-03 10:48:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:48:00 - 2017-04-03 10:49:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:49:00 - 2017-04-03 10:50:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:50:00 - 2017-04-03 10:51:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:51:00 - 2017-04-03 10:52:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:52:00 - 2017-04-03 10:53:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:53:00 - 2017-04-03 10:54:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:54:00 - 2017-04-03 10:55:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:55:00 - 2017-04-03 10:56:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:56:00 - 2017-04-03 10:57:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:57:00 - 2017-04-03 10:58:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:58:00 - 2017-04-03 10:59:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 10:59:00 - 2017-04-03 11:00:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:00:00 - 2017-04-03 11:01:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:01:00 - 2017-04-03 11:02:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:02:00 - 2017-04-03 11:03:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:03:00 - 2017-04-03 11:04:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:04:00 - 2017-04-03 11:05:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:05:00 - 2017-04-03 11:06:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:06:00 - 2017-04-03 11:07:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:07:00 - 2017-04-03 11:08:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:08:00 - 2017-04-03 11:09:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:09:00 - 2017-04-03 11:10:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:10:00 - 2017-04-03 11:11:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:11:00 - 2017-04-03 11:12:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:12:00 - 2017-04-03 11:13:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+
+Performance Statistics   2017-04-03 11:13:00 - 2017-04-03 11:14:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+

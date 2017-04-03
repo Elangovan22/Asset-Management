@@ -1,0 +1,263 @@
+/*
+ * Copyright (c) 2008-2016 Haulmont.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+@mixin havana-datefield($primary-stylename : cuba-datefield) {
+  @include base-datefield($primary-stylename);
+
+  .#{$primary-stylename} {
+    white-space: nowrap;
+
+    input.#{$primary-stylename}-empty {
+      color: #ccc;
+    }
+
+    input.#{$primary-stylename}-empty:focus {
+      color: inherit;
+    }
+
+    input.#{$primary-stylename}-empty.v-readonly:focus {
+      color: #ccc;
+    }
+  }
+
+  .#{$primary-stylename}-calendarpanel-header {
+    height: 25px;
+  }
+
+  .#{$primary-stylename}-popupcalendar {
+    padding-right: 25px;
+  }
+
+  .#{$primary-stylename}-popupcalendar.v-readonly {
+    padding-right: 0px;
+
+    .#{$primary-stylename}-button {
+      display: none;
+    }
+  }
+
+  .#{$primary-stylename}-button {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    border: solid 1px $cuba-field-border-color;
+    margin-right: -25px;
+    border-left: 0;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-image: url(sprites/date-select-button.png);  /** sprite-ref: components; */
+    vertical-align: top;
+    cursor: pointer;
+    outline: 0;
+  }
+
+  .#{$primary-stylename}-button-focus {
+    border: $cuba-field-focused-border-color solid 1px ;
+    border-left: 0;
+  }
+
+  .#{$primary-stylename}-button-readonly {
+    display: none;
+    visibility: hidden;
+  }
+
+  .#{$primary-stylename}-popup {
+    font-family: $cuba-havana-fonts;
+    color: #000;
+    font-size: 12px;
+    background: #fff;
+    border: $cuba-field-popup-border-color solid 1px;
+    padding: 6px;
+  }
+
+  .#{$primary-stylename}-calendarpanel-header td {
+    text-align: center;
+  }
+
+  .#{$primary-stylename}-calendarpanel {
+    outline: none;
+    width: 19em;
+    font-size: 12px;
+    width: 16em;
+
+    table {
+      width: 100%;
+
+      td {
+        text-align: right;
+        width: 14.2%;
+        padding: 0;
+        margin: 0;
+
+        button {
+          outline: none;
+        }
+
+        span {
+          display: block;
+        }
+      }
+    }
+
+    strong {
+      color: #cd3331;
+      display: block;
+      padding-right: 3px;
+      padding-left: 3px;
+      font-size: 12px;
+    }
+
+    .v-button-prevyear,
+    .v-button-nextyear,
+    .v-button-nextmonth,
+    .v-button-prevmonth {
+      outline: none;
+      display: block;
+      width: 15px;
+      height: 15px;
+      border: none;
+      padding: 0;
+      text-indent: -90000px;
+      margin: 0 auto;
+      background: transparent;
+      background-position: middle center;
+      background-repeat: no-repeat;
+    }
+
+    .v-button-prevyear:focus,
+    .v-button-nextyear:focus,
+    .v-button-nextmonth:focus,
+    .v-button-prevmonth:focus {
+      outline: none;
+    }
+
+    .v-button-prevmonth {
+      background-image: url(sprites/prevmonth.png); /** sprite-ref: components; */
+    }
+
+    .v-button-prevmonth:hover {
+      background-image: url(sprites/prevmonth-hover.png); /** sprite-ref: components; */
+    }
+
+    .v-button-nextmonth {
+      background-image: url(sprites/nextmonth.png); /** sprite-ref: components; */
+    }
+
+    .v-button-nextmonth:hover {
+      background-image: url(sprites/nextmonth-hover.png); /** sprite-ref: components; */
+    }
+
+    .v-button-nextyear {
+      background-image: url(sprites/nextyear.png); /** sprite-ref: components; */
+    }
+
+    .v-button-nextyear:hover {
+      background-image: url(sprites/nextyear-hover.png); /** sprite-ref: components; */
+    }
+
+    .v-button-prevyear {
+      background-image: url(sprites/prevyear.png); /** sprite-ref: components; */
+    }
+
+    .v-button-prevyear:hover {
+      background-image: url(sprites/prevyear-hover.png); /** sprite-ref: components; */
+    }
+  }
+
+  .#{$primary-stylename}-calendarpanel-month {
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .#{$primary-stylename}-calendarpanel-day {
+    border: 1px solid transparent;
+    height: 14px
+  }
+
+  .#{$primary-stylename}-calendarpanel-day-today {
+    border: 1px solid $cuba-datefield-today-color;
+    height: 14px
+  }
+
+  .#{$primary-stylename}-calendarpanel-day-focused {
+    border: 1px solid $cuba-datefield-day-focus-color;
+    height: 14px
+  }
+
+  .v-disabled .#{$primary-stylename}-calendarpanel-day,
+  .v-disabled .#{$primary-stylename}-calendarpanel-day-today {
+    cursor: default;
+  }
+
+  .#{$primary-stylename}-calendarpanel-day-entry {
+    color: #6a98b5;
+  }
+
+  .#{$primary-stylename}-calendarpanel-day-disabled {
+    font-weight: normal;
+    color: #dddddd;
+    cursor: default;
+    opacity: 0.5;
+  }
+
+  .#{$primary-stylename}-calendarpanel-day-entry.#{$primary-stylename}-calendarpanel-day-disabled {
+    color: #afd6f8;
+  }
+
+  .#{$primary-stylename}-calendarpanel-day {
+    height: 16px;
+    width: 14px;
+    padding: 1px 3px;
+    outline: 0;
+  }
+
+  .#{$primary-stylename}-calendarpanel-day-selected {
+    font-weight: bold;
+    color: #fff;
+    background: $cuba-datefield-selection-color;
+    cursor: default;
+    border: 1px solid $cuba-datefield-selection-border-color;
+    padding-right: 5px;
+  }
+
+  .#{$primary-stylename}-time {
+    white-space: nowrap;
+    font-size: 11px;
+  }
+
+  .#{$primary-stylename}-time .v-label {
+    display: inline;
+  }
+
+  .#{$primary-stylename}-time .v-select {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .#{$primary-stylename}-popup:focus {
+    outline: none;
+  }
+
+  .#{$primary-stylename}-calendarpanel:focus {
+    outline: none;
+  }
+}

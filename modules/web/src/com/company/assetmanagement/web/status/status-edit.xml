@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.assetmanagement.web.status.StatusEdit"
+        datasource="statusDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.assetmanagement.web.status">
+    <dsContext>
+        <datasource id="statusDs"
+                    class="com.company.assetmanagement.entity.Status"
+                    view="_minimal"/>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="statusDs">
+            <column width="250px">
+                <field id="asset_detail"/>
+                <field id="status"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.ams.web.assetallocated.AssetAllocatedBrowse"
+        focusComponent="assetAllocatedsTable"
+        lookupComponent="assetAllocatedsTable"
+        messagesPack="com.company.ams.web.assetallocated">
+    <dsContext>
+        <collectionDatasource id="assetAllocatedsDs"
+                              class="com.company.ams.entity.AssetAllocated"
+                              view="_local">
+            <query>
+                <![CDATA[select e from ams$AssetAllocated e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="assetAllocatedsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="assetAllocatedsTable"
+                datasource="assetAllocatedsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="assetAllocatedsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="user"/>
+                <column id="assetid"/>
+                <column id="company"/>
+                <column id="modelname"/>
+                <column id="quantity"/>
+                <column id="name"/>
+            </columns>
+            <rows datasource="assetAllocatedsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="assetAllocatedsTable.create"/>
+                <button id="editBtn"
+                        action="assetAllocatedsTable.edit"/>
+                <button id="removeBtn"
+                        action="assetAllocatedsTable.remove"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

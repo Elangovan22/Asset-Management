@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editCaption"
+        class="com.company.assetmanagement.web.supplier.SupplierEdit"
+        datasource="supplierDs"
+        focusComponent="fieldGroup"
+        messagesPack="com.company.assetmanagement.web.supplier">
+    <dsContext>
+        <datasource id="supplierDs"
+                    class="com.company.assetmanagement.entity.Supplier"
+                    view="_local"/>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="supplierDs">
+            <column width="250px">
+                <field id="supplier_Name"/>
+                <field id="city"/>
+                <field id="state"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

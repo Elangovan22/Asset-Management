@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="com.company.ams.web.newasset.NewAssetBrowse"
+        focusComponent="newAssetsTable"
+        lookupComponent="newAssetsTable"
+        messagesPack="com.company.ams.web.newasset">
+    <dsContext>
+        <collectionDatasource id="newAssetsDs"
+                              class="com.company.ams.entity.NewAsset"
+                              view="newAsset-view">
+            <query>
+                <![CDATA[select e from ams$NewAsset e]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="newAssetsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="newAssetsTable"
+                datasource="newAssetsDs">
+            <properties include=".*"/>
+        </filter>
+        <table id="newAssetsTable"
+               width="100%">
+            <actions>
+                <action id="create"/>
+                <action id="edit"/>
+                <action id="remove"/>
+                <action id="refresh"/>
+                <action id="excel"/>
+            </actions>
+            <columns>
+                <column id="name"/>
+                <column id="assetid"/>
+                <column id="company"/>
+                <column id="modelname"/>
+                <column id="quantity"/>
+                <column id="availablequantity"/>
+                <column id="cost"/>
+                <column id="purchasedate"/>
+                <column id="status"/>
+            </columns>
+            <rows datasource="newAssetsDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="newAssetsTable.create"/>
+                <button id="editBtn"
+                        action="newAssetsTable.edit"/>
+                <button id="removeBtn"
+                        action="newAssetsTable.remove"/>
+                <button id="refreshBtn"
+                        action="newAssetsTable.refresh"/>
+                <button id="excelBtn"
+                        action="newAssetsTable.excel"/>
+            </buttonsPanel>
+        </table>
+    </layout>
+</window>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="com.company.assetmanagement.web.mainwindow.ExtAppMainWindow"
+        extends="/com/haulmont/cuba/web/app/mainwindow/mainwindow.xml"
+        messagesPack="com.company.assetmanagement.web.mainwindow"
+        xmlns:main="http://schemas.haulmont.com/cuba/mainwindow.xsd">
+    <layout expand="middlePanel">
+        <split id="foldersSplit"
+               enable="false"
+               height="0px"
+               pos="0px"
+               visible="false"
+               width="0px">
+            <main:foldersPane id="foldersPane"
+                              enable="false"
+                              height="0px"
+                              visible="false"
+                              width="0px"/>
+            <main:workArea id="workArea"
+                           enable="false"
+                           height="0px"
+                           visible="false"
+                           width="0px">
+                <main:initialLayout enable="false"
+                                    margin="false"
+                                    spacing="false"
+                                    visible="false"/>
+            </main:workArea>
+        </split>
+        <label align="MIDDLE_CENTER"
+               value="Asset Management"/>
+        <split id="middlePanel"
+               margin="true"
+               orientation="horizontal"
+               pos="80"
+               stylename="gray"
+               width="100%">
+            <main:workArea id="workArea_1"
+                           height="100%"
+                           width="140%">
+                <main:initialLayout margin="true"
+                                    spacing="true"
+                                    stylename="red">
+                    <label align="MIDDLE_CENTER"
+                           value="Work Area (Initial Layout)"/>
+                </main:initialLayout>
+            </main:workArea>
+            <main:foldersPane height="100%"
+                              stylename="blue"
+                              width="100%"/>
+        </split>
+        <label align="MIDDLE_CENTER"
+               value="TechnoUniteE Registered 2017"/>
+    </layout>
+</window>
